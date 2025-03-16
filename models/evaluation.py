@@ -57,7 +57,7 @@ def get_choice(answer_str):
                'A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.', 'H.']
     for c in choices:
         if answer_str.startswith(c):
-            return c.replace(')', '')
+            return c.replace(')', '').replace('.', '')
 
     if answer_str.startswith(':'):
        return answer_str.replace(':', '').replace('.', '').strip()
@@ -73,13 +73,19 @@ def evaluate_QA(QA_results):
 
         indicators = ['the correct option is', 'the correct answer is', 
                       'The correct answer is', 'The correct option is',
-                      'Thus, the answer is']
+                      'Thus, the answer is', 'answer is', 'Answer:']
         if prediction is None:
             for indicator in indicators:
                 if answer_str.find(indicator)>=0:
                     answer_str = answer_str.split(indicator)[1].strip()
                     prediction = get_choice(answer_str)
                     break
+
+        # If still None, try to find a single letter answer
+        if prediction is None:
+            letter_match = re.search(r'\b([A-E])\b', answer_str)
+            if letter_match:
+                prediction = letter_match.group(1)
 
         # if prediction is None:
         #     print(answer_str)
@@ -98,9 +104,26 @@ def full_evaluation(result_file):
         all_samples = json.load(f)
 
     executable_samples = [sample for sample in all_samples if sample['flag'] == 'success']
-    print(f"Overall accuracy: {evaluate_QA(all_samples)}")
-    print(f'Executable rate (Exe_Rate): {len(executable_samples)/len(all_samples)}')
-    print(f"Executable accuracy (Exe_Acc): {evaluate_QA(executable_samples)}")
+    overall_acc = evaluate_QA(all_samples)
+    exe_rate = len(executable_samples)/len(all_samples)
+    exe_acc = evaluate_QA(executable_samples) if executable_samples else 0.0
+    
+    print(f"Overall accuracy: {overall_acc:.4f}")
+    print(f'Executable rate (Exe_Rate): {exe_rate:.4f}')
+    print(f"Executable accuracy (Exe_Acc): {exe_acc:.4f}")
+    
+    # Save metrics to a separate file
+    metrics_file = result_file.replace('.json', '_metrics.json')
+    metrics = {
+        "overall_accuracy": overall_acc,
+        "executable_rate": exe_rate,
+        "executable_accuracy": exe_acc,
+        "total_samples": len(all_samples),
+        "executable_samples": len(executable_samples)
+    }
+    with open(metrics_file, 'w') as f:
+        json.dump(metrics, f, indent=2)
+    print(f"Metrics saved to {metrics_file}")
 
 
 def parse_args():
@@ -114,7 +137,23 @@ def parse_args():
 
 if __name__ == "__main__":
     args = parse_args()
-    result_path = f'./outputs/logic_inference'
-    result_file = os.path.join(result_path, f'{args.dataset_name}_{args.split}_{args.model_name}_backup-{args.backup}.json')
-    # evaluate_QA(result_file)
+    # Handle model name with special characters for file paths
+    safe_model_name = args.model_name.replace('/', '_').replace('\\', '_').replace(':', '_')
+    
+    result_path = f'./outputs/results'
+    result_file = os.path.join(result_path, f'{args.dataset_name}_{args.split}_{safe_model_name}_backup-{args.backup}.json')
+    
+    if not os.path.exists(result_file):
+        print(f"Warning: Result file not found at {result_file}")
+        # Try alternative paths
+        alt_result_path = f'./outputs/logic_inference'
+        alt_result_file = os.path.join(alt_result_path, f'{args.dataset_name}_{args.split}_{safe_model_name}_backup-{args.backup}.json')
+        if os.path.exists(alt_result_file):
+            print(f"Found result file at alternative location: {alt_result_file}")
+            result_file = alt_result_file
+        else:
+            print(f"Error: Could not find result file at {result_file} or {alt_result_file}")
+            exit(1)
+    
+    print(f"Evaluating results from: {result_file}")
     full_evaluation(result_file)

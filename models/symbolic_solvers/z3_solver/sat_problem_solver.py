@@ -1,4 +1,5 @@
 from collections import OrderedDict
+
 from .code_translator import *
 import subprocess
 from subprocess import check_output
@@ -168,11 +169,12 @@ class LSAT_Z3_Program:
     
     def execute_program(self):
         filename = join(self.cache_dir, f'tmp.py')
-        with open(filename, "w") as f:
+        with open(filename, "w", encoding="utf-8") as f:
             f.write(self.standard_code)
         try:
             output = check_output(["python", filename], stderr=subprocess.STDOUT, timeout=1.0)
         except subprocess.CalledProcessError as e:
+            print(self.standard_code)
             outputs = e.output.decode("utf-8").strip().splitlines()[-1]
             return None, outputs
         except subprocess.TimeoutExpired:

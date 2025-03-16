@@ -1,9 +1,9 @@
 import json
 import os
 from tqdm import tqdm
-from symbolic_solvers.fol_solver.prover9_solver import FOL_Prover9_Program
-from symbolic_solvers.pyke_solver.pyke_solver import Pyke_Program
-from symbolic_solvers.csp_solver.csp_solver import CSP_Program
+# from symbolic_solvers.fol_solver.prover9_solver import FOL_Prover9_Program
+# from symbolic_solvers.pyke_solver.pyke_solver import Pyke_Program
+# from symbolic_solvers.csp_solver.csp_solver import CSP_Program
 from symbolic_solvers.z3_solver.sat_problem_solver import LSAT_Z3_Program
 import argparse
 import random
@@ -15,20 +15,21 @@ class LogicInferenceEngine:
         self.dataset_name = args.dataset_name
         self.split = args.split
         self.model_name = args.model_name
+        self.safe_model_name = self.model_name.replace('/', '_').replace('\\', '_').replace(':', '_')
         self.save_path = args.save_path
         self.backup_strategy = args.backup_strategy
 
         self.dataset = self.load_logic_programs()
-        program_executor_map = {'FOLIO': FOL_Prover9_Program, 
-                                'ProntoQA': Pyke_Program, 
-                                'ProofWriter': Pyke_Program,
-                                'LogicalDeduction': CSP_Program,
+        program_executor_map = {#'FOLIO': FOL_Prover9_Program, 
+                                # 'ProntoQA': Pyke_Program, 
+                                # 'ProofWriter': Pyke_Program,
+                                # 'LogicalDeduction': CSP_Program,
                                 'AR-LSAT': LSAT_Z3_Program}
         self.program_executor = program_executor_map[self.dataset_name]
         self.backup_generator = Backup_Answer_Generator(self.dataset_name, self.backup_strategy, self.args.backup_LLM_result_path)
 
     def load_logic_programs(self):
-        with open(os.path.join('./outputs/logic_programs', f'{self.dataset_name}_{self.split}_{self.model_name}.json')) as f:
+        with open(os.path.join('./outputs/logic_programs', f'{self.dataset_name}_{self.split}_{self.safe_model_name}.json')) as f:
             dataset = json.load(f)
         print(f"Loaded {len(dataset)} examples from {self.split} split.")
         return dataset
@@ -37,7 +38,7 @@ class LogicInferenceEngine:
         if not os.path.exists(self.save_path):
             os.makedirs(self.save_path)
         
-        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}_backup-{self.backup_strategy}.json'), 'w') as f:
+        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.safe_model_name}_backup-{self.backup_strategy}.json'), 'w') as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
 
     def safe_execute_program(self, id, logic_program):
@@ -62,7 +63,7 @@ class LogicInferenceEngine:
         
         for example in tqdm(self.dataset):
             # execute the logic program
-            answer, flag, error_message = self.safe_execute_program(example['id'], example['raw_logic_programs'][0].strip())
+            answer, flag, error_message = self.safe_execute_program(example['id'], example['logic_program'].strip())
             if not flag == 'success':
                 error_count += 1
 
@@ -76,6 +77,15 @@ class LogicInferenceEngine:
             outputs.append(output)
         
         print(f"Error count: {error_count}")
+
+        # Write error count to file
+        error_file_path = os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.safe_model_name}_backup-{self.backup_strategy}_error_count.txt')
+        with open(error_file_path, 'w') as f:
+            f.write(f"Error count: {error_count}\n")
+            f.write(f"Total examples: {len(self.dataset)}\n")
+            f.write(f"Error rate: {error_count / len(self.dataset) * 100:.2f}%\n")
+        print(f"Error count written to {error_file_path}")
+        
         self.save_results(outputs)
         self.cleanup()
 

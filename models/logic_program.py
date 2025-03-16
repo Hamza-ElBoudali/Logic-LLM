@@ -2,11 +2,18 @@
 
 import json
 import os
+import time
+import sys
 from tqdm import tqdm
 from collections import OrderedDict
 from typing import Dict, List, Tuple
-from utils import OpenAIModel
+from utils import OpenAIModel, DeepSeekModel
 import argparse
+from concurrent.futures import ThreadPoolExecutor
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 class LogicProgramGenerator:
     def __init__(self, args):
@@ -15,9 +22,22 @@ class LogicProgramGenerator:
         self.dataset_name = args.dataset_name
         self.split = args.split
         self.model_name = args.model_name
+        self.safe_model_name = self.model_name.replace('/', '_').replace('\\', '_').replace(':', '_')
         self.save_path = args.save_path
+        self.num_threads = args.num_threads
+        self.verbose = args.verbose if hasattr(args, 'verbose') else False
+        self.timeout = args.timeout if hasattr(args, 'timeout') else 60
 
-        self.openai_api = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+        # Initialize the appropriate model based on the model name
+        if 'deepseek' in args.model_name.lower():
+            if self.verbose:
+                print(f"Initializing DeepSeekModel with timeout={self.timeout}s")
+            self.model_api = DeepSeekModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+        else:
+            if self.verbose:
+                print(f"Initializing OpenAIModel with timeout={self.timeout}s")
+            self.model_api = OpenAIModel(args.api_key, args.model_name, args.stop_words, args.max_new_tokens)
+            
         self.prompt_creator = {'FOLIO': self.prompt_folio,
                                'ProntoQA': self.prompt_prontoqa,
                                'ProofWriter': self.prompt_proofwriter,
@@ -31,6 +51,8 @@ class LogicProgramGenerator:
             prompt_file = f'./models/prompts/{self.dataset_name}-long.txt'
         with open(prompt_file, 'r') as f:
             self.prompt_template = f.read()
+        if self.verbose:
+            print(f"Loaded prompt template from {prompt_file}")
 
     def prompt_folio(self, test_data):
         problem = test_data['context']
@@ -67,106 +89,243 @@ class LogicProgramGenerator:
         return full_prompt
 
     def load_raw_dataset(self, split):
-        with open(os.path.join(self.data_path, self.dataset_name, f'{split}.json')) as f:
+        dataset_path = os.path.join(self.data_path, self.dataset_name, f'{split}.json')
+        if self.verbose:
+            print(f"Loading dataset from {dataset_path}")
+        with open(dataset_path) as f:
             raw_dataset = json.load(f)
         return raw_dataset
+
+    def process_example(self, example):
+        """Process a single example with the model."""
+        try:
+            if self.verbose:
+                print(f"Processing example {example.get('id', 'unknown')}")
+                start_time = time.time()
+            
+            prompt = self.prompt_creator[self.dataset_name](example)
+            
+            if self.verbose:
+                print(f"Generated prompt of length {len(prompt)}")
+                print(f"Sending request to model API...")
+            
+            output = self.model_api.generate(prompt, temperature=0.0)
+            
+            if self.verbose:
+                elapsed = time.time() - start_time
+                print(f"Received response in {elapsed:.2f} seconds")
+                print(f"Response length: {len(output)}")
+            
+            example['logic_program'] = output
+            return example
+        except Exception as e:
+            print(f"Error processing example {example.get('id', 'unknown')}: {e}")
+            if self.verbose:
+                import traceback
+                traceback.print_exc()
+            example['logic_program'] = ""
+            return example
+
+    def threaded_logic_program_generation(self):
+        """Generate logic programs using multi-threading."""
+        # Load raw dataset
+        raw_dataset = self.load_raw_dataset(self.split)
+        print(f"Loaded {len(raw_dataset)} examples from {self.split} split.")
+        
+        # Process examples in parallel
+        results = []
+        start_time = time.time()
+        
+        print(f"Using multi-threading with {self.num_threads} threads...")
+        
+        output_file = os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.safe_model_name}.json')        
+        
+        # Ensure the directory exists
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        
+        # For debugging, process just the first example if verbose mode is on
+        # if self.verbose:
+        #     print("DEBUG MODE: Processing only the first example...")
+        #     example = raw_dataset[0]
+        #     result = self.process_example(example)
+        #     results.append(result)
+            
+        #     with open(output_file, 'w') as f:
+        #         json.dump(results, f, indent=2)
+            
+        #     elapsed = time.time() - start_time
+        #     print(f"Processed 1 example. Elapsed time: {elapsed:.2f}s")
+            
+        #     return results
+        
+        with ThreadPoolExecutor(max_workers=self.num_threads) as executor:
+            # Submit all tasks
+            futures = [executor.submit(self.process_example, example) for example in raw_dataset]
+            
+            # Process results as they complete
+            for i, future in enumerate(tqdm(futures, desc="Processing examples")):
+                try:
+                    result = future.result()
+                    results.append(result)
+                    
+                    # Save intermediate results
+                    if (i + 1) % 10 == 0 or (i + 1) == len(raw_dataset):
+                        with open(output_file, 'w') as f:
+                            json.dump(results, f, indent=2)
+                        elapsed = time.time() - start_time
+                        print(f"Processed {i+1}/{len(raw_dataset)} examples. Elapsed time: {elapsed:.2f}s, Avg: {elapsed/(i+1):.2f}s per example")
+                except Exception as e:
+                    print(f"Error processing future {i}: {e}")
+        
+        # Save final results
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2)
+        
+        total_time = time.time() - start_time
+        print(f"Processing complete. Total time: {total_time:.2f}s, Avg: {total_time/len(raw_dataset):.2f}s per example")
+        
+        return results
 
     def logic_program_generation(self):
         # load raw dataset
         raw_dataset = self.load_raw_dataset(self.split)
         print(f"Loaded {len(raw_dataset)} examples from {self.split} split.")
 
-        outputs = []
-        for example in tqdm(raw_dataset):
-            # create prompt
-            try:
-                full_prompt = self.prompt_creator[self.dataset_name](example)
-                output = self.openai_api.generate(full_prompt)
-                # print(full_prompt)
-                programs = [output]
+        output_file = os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.safe_model_name}.json')
 
-                # create output
-                output = {'id': example['id'], 
-                        'context': example['context'],
-                        'question': example['question'], 
-                        'answer': example['answer'],
-                        'options': example['options'],
-                        'raw_logic_programs': programs}
-                outputs.append(output)
-            except:
-                print('Error in generating logic programs for example: ', example['id'])
+        # Ensure the directory exists
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-        # save outputs        
-        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
-            json.dump(outputs, f, indent=2, ensure_ascii=False)
+        # For debugging, process just the first example if verbose mode is on
+        if self.verbose:
+            print("DEBUG MODE: Processing only the first example...")
+            example = raw_dataset[0]
+            start_time = time.time()
+            result = self.process_example(example)
+            results = [result]
+            
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=2)
+            
+            elapsed = time.time() - start_time
+            print(f"Processed 1 example. Elapsed time: {elapsed:.2f}s")
+            
+            return results
 
-    '''
-    Updated version of logic_program_generation; speed up the generation process by batching
-    '''
+        # generate logic programs
+        results = []
+        start_time = time.time()
+        
+        for i, sample in enumerate(tqdm(raw_dataset)):
+            prompt = self.prompt_creator[self.dataset_name](sample)
+            output = self.model_api.generate(prompt, temperature=0.0)
+            
+            # update sample
+            sample['logic_program'] = output
+            results.append(sample)
+
+            # save intermediate results
+            if (i + 1) % 10 == 0:
+                with open(output_file, 'w') as f:
+                    json.dump(results, f, indent=2)
+                elapsed = time.time() - start_time
+                print(f"Processed {i+1}/{len(raw_dataset)} examples. Elapsed time: {elapsed:.2f}s, Avg: {elapsed/(i+1):.2f}s per example")
+
+        # save final results
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2)
+        
+        total_time = time.time() - start_time
+        print(f"Processing complete. Total time: {total_time:.2f}s, Avg: {total_time/len(raw_dataset):.2f}s per example")
+        
+        return results
+
     def batch_logic_program_generation(self, batch_size = 10):
         # load raw dataset
         raw_dataset = self.load_raw_dataset(self.split)
         print(f"Loaded {len(raw_dataset)} examples from {self.split} split.")
 
-        outputs = []
-        # split dataset into chunks
-        dataset_chunks = [raw_dataset[i:i + batch_size] for i in range(0, len(raw_dataset), batch_size)]
-        for chunk in tqdm(dataset_chunks):
-            # create prompt
-            full_prompts = [self.prompt_creator[self.dataset_name](example) for example in chunk]
-            try:
-                batch_outputs = self.openai_api.batch_generate(full_prompts)
-                # create output
-                for sample, output in zip(chunk, batch_outputs):
-                    programs = [output]
-                    output = {'id': sample['id'], 
-                            'context': sample['context'],
-                            'question': sample['question'], 
-                            'answer': sample['answer'],
-                            'options': sample['options'],
-                            'raw_logic_programs': programs}
-                    outputs.append(output)
-            except:
-                # generate one by one if batch generation fails
-                for sample, full_prompt in zip(chunk, full_prompts):
-                    try:
-                        output = self.openai_api.generate(full_prompt)
-                        programs = [output]
-                        output = {'id': sample['id'], 
-                                'context': sample['context'],
-                                'question': sample['question'], 
-                                'answer': sample['answer'],
-                                'options': sample['options'],
-                                'raw_logic_programs': programs}
-                        outputs.append(output)
-                    except:
-                        print('Error in generating logic programs for example: ', sample['id'])
+        output_file = os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.safe_model_name}.json')
+        
+        # Ensure the directory exists
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-        # remove examples with duplicate ids from the result
-        outputs = list({output['id']: output for output in outputs}.values())
-        print(f"Generated {len(outputs)} examples.")
+        # For debugging, process just the first batch if verbose mode is on
+        if self.verbose:
+            print("DEBUG MODE: Processing only the first batch...")
+            batch = raw_dataset[:min(batch_size, len(raw_dataset))]
+            prompts = [self.prompt_creator[self.dataset_name](sample) for sample in batch]
+            
+            print(f"Generated {len(prompts)} prompts for the first batch")
+            
+            # Use asyncio to run the batch generation
+            import asyncio
+            start_time = time.time()
+            outputs = asyncio.run(self.model_api.batch_generate(prompts, temperature=0.0))
+            elapsed = time.time() - start_time
+            
+            print(f"Batch processing completed in {elapsed:.2f} seconds")
+            
+            # update samples
+            results = []
+            for j, (sample, output) in enumerate(zip(batch, outputs)):
+                sample['logic_program'] = output
+                results.append(sample)
+            
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=2)
+            
+            return results
+
+        # generate logic programs in batches
+        results = []
+        for i in tqdm(range(0, len(raw_dataset), batch_size)):
+            batch = raw_dataset[i:i+batch_size]
+            prompts = [self.prompt_creator[self.dataset_name](sample) for sample in batch]
+            
+            # Use asyncio to run the batch generation
+            import asyncio
+            outputs = asyncio.run(self.model_api.batch_generate(prompts, temperature=0.0))
+            
+            # update samples
+            for j, (sample, output) in enumerate(zip(batch, outputs)):
+                sample['logic_program'] = output
+                results.append(sample)
+
+            # save intermediate results
+            if (i + batch_size) % 50 == 0 or (i + batch_size) >= len(raw_dataset):
+                with open(output_file, 'w') as f:
+                    json.dump(results, f, indent=2)
+
+        # save final results
+        with open(output_file, 'w') as f:
+            json.dump(results, f, indent=2)
         
-        # save outputs
-        if not os.path.exists(self.save_path):
-            os.makedirs(self.save_path)
-        
-        with open(os.path.join(self.save_path, f'{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
-            json.dump(outputs, f, indent=2, ensure_ascii=False)
+        return results
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--data_path', type=str, default='./data')
-    parser.add_argument('--dataset_name', type=str)
-    parser.add_argument('--split', type=str, default='dev')
+    parser.add_argument('--data_path', type=str, default='data')
+    parser.add_argument('--dataset_name', type=str, default='AR-LSAT')
+    parser.add_argument('--split', type=str, default='test')
+    parser.add_argument('--model_name', type=str, default='gpt-3.5-turbo')
     parser.add_argument('--save_path', type=str, default='./outputs/logic_programs')
-    parser.add_argument('--api_key', type=str)
-    parser.add_argument('--model_name', type=str, default='text-davinci-003')
-    parser.add_argument('--stop_words', type=str, default='------')
+    parser.add_argument('--api_key', type=str, default=os.getenv("OPENROUTER_API_KEY"), help='API key (defaults to OPENROUTER_API_KEY from .env)')
+    parser.add_argument('--stop_words', type=str, nargs='+', default=None)
     parser.add_argument('--max_new_tokens', type=int, default=1024)
-    args = parser.parse_args()
-    return args
+    parser.add_argument('--num_threads', type=int, default=15, help='Number of threads to use for processing')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose output for debugging')
+    parser.add_argument('--timeout', type=int, default=60, help='Timeout in seconds for API requests')
+    return parser.parse_args()
 
 if __name__ == '__main__':
     args = parse_args()
-    logic_program_generator = LogicProgramGenerator(args)
-    logic_program_generator.batch_logic_program_generation()
+    
+    # Create save directory if it doesn't exist
+    os.makedirs(args.save_path, exist_ok=True)
+    
+    # Initialize the generator
+    generator = LogicProgramGenerator(args)
+    
+    # Generate logic programs using threading
+    results = generator.threaded_logic_program_generation()

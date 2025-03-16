@@ -9,16 +9,22 @@ from symbolic_solvers.fol_solver.prover9_solver import FOL_Prover9_Program
 import argparse
 import random
 from backup_answer_generation import Backup_Answer_Generator
-from utils import OpenAIModel
+from utils import OpenAIModel, DeepSeekModel
 
 class SelfRefinementEngine:
     def __init__(self, args, current_round):
         self.args = args
         self.split = args.split
         self.model_name = args.model_name
+        self.safe_model_name = self.model_name.replace('/', '_').replace('\\', '_').replace(':', '_')
         self.dataset_name = args.dataset_name
         self.backup_strategy = args.backup_strategy
-        self.openai_api = OpenAIModel(args.api_key, 'gpt-4', args.stop_words, args.max_new_tokens)
+        
+        if 'deepseek' in self.model_name.lower():
+            self.api = DeepSeekModel(args.api_key, self.model_name, args.stop_words, args.max_new_tokens)
+        else:
+            self.api = OpenAIModel(args.api_key, self.model_name, args.stop_words, args.max_new_tokens)
+            
         self.current_round = current_round
 
         self.logic_programs = self.load_logic_programs()
@@ -33,7 +39,7 @@ class SelfRefinementEngine:
         prefix = ""
         if self.current_round > 1:
             prefix = f'self-refine-{self.current_round-1}_'
-        with open(os.path.join('./outputs/logic_programs', f'{prefix}{self.dataset_name}_{self.split}_{self.model_name}.json')) as f:
+        with open(os.path.join('./outputs/logic_programs', f'{prefix}{self.dataset_name}_{self.split}_{self.safe_model_name}.json')) as f:
             dataset = json.load(f)
         print(f"Loaded {len(dataset)} examples from {self.split} split.")
         return dataset
@@ -62,9 +68,9 @@ class SelfRefinementEngine:
             if debug == True:
                 if not os.path.exists('./debug'):
                     os.makedirs('./debug')
-                with open(f'./debug/{id}.py', 'w') as f:
+                with open(f'./debug/{id}.py', 'w', encoding='utf-8') as f:
                     f.write(program.standard_code)
-                with open(f'./debug/{id}.program.txt', 'w') as f:
+                with open(f'./debug/{id}.program.txt', 'w', encoding='utf-8') as f:
                     f.write(logic_program)
                     f.write('\n')
                     f.write(error_message)
@@ -84,7 +90,7 @@ class SelfRefinementEngine:
                 if not error_message == 'No Output': # this is not execution error, but parsing error
                     # perform self-correction based on the error message
                     full_prompt = self.load_prompt(logic_program, error_message)
-                    revised_program = self.openai_api.generate(full_prompt).strip()
+                    revised_program = self.api.generate(full_prompt).strip()
                     programs = [revised_program]
                     output = {'id': example['id'], 
                             'context': example['context'],
@@ -98,7 +104,7 @@ class SelfRefinementEngine:
             elif status == 'parsing error':
                 # perform self-correction based on the error message
                 full_prompt = self.load_prompt(logic_program, 'Parsing Error')
-                revised_program = self.openai_api.generate(full_prompt).strip()
+                revised_program = self.api.generate(full_prompt).strip()
                 programs = [revised_program]
                 output = {'id': example['id'], 
                         'context': example['context'],
@@ -115,8 +121,8 @@ class SelfRefinementEngine:
             os.makedirs('./outputs/logic_programs')
 
         # save outputs
-        save_path = f'./outputs/logic_programs/self-refine-{self.current_round}_{self.dataset_name}_{self.split}_{self.model_name}.json'
-        with open(save_path, 'w') as f:
+        save_path = f'./outputs/logic_programs/self-refine-{self.current_round}_{self.dataset_name}_{self.split}_{self.safe_model_name}.json'
+        with open(save_path, 'w', encoding='utf-8') as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
     
 def parse_args():

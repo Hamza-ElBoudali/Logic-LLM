@@ -1,0 +1,1842 @@
+[
+  {
+    "id": "ar_lsat_200010_3-G_1_1",
+    "context": "Of the eight students—George, Helen, Irving, Kyle, Lenore, Nina, Olivia, and Robert—in a seminar, exactly six will give individual oral reports during three consecutive days—Monday, Tuesday, and Wednesday. Exactly two reports will be given each day—one in the morning and one in the afternoon—according to the following conditions: Tuesday is the only day on which George can give a report. Neither Olivia nor Robert can give an afternoon report. If Nina gives a report, then on the next day Helen and Irving must both give reports, unless Nina's report is given on Wednesday.",
+    "question": "Which one of the following could be the schedule of the students' reports?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_2",
+    "context": "Of the eight students—George, Helen, Irving, Kyle, Lenore, Nina, Olivia, and Robert—in a seminar, exactly six will give individual oral reports during three consecutive days—Monday, Tuesday, and Wednesday. Exactly two reports will be given each day—one in the morning and one in the afternoon—according to the following conditions: Tuesday is the only day on which George can give a report. Neither Olivia nor Robert can give an afternoon report. If Nina gives a report, then on the next day Helen and Irving must both give reports, unless Nina's report is given on Wednesday.",
+    "question": "If Kyle and Lenore do not give reports, then the morning reports on Monday, Tuesday, and Wednesday, respectively, could be given by",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_3",
+    "context": "Of the eight students—George, Helen, Irving, Kyle, Lenore, Nina, Olivia, and Robert—in a seminar, exactly six will give individual oral reports during three consecutive days—Monday, Tuesday, and Wednesday. Exactly two reports will be given each day—one in the morning and one in the afternoon—according to the following conditions: Tuesday is the only day on which George can give a report. Neither Olivia nor Robert can give an afternoon report. If Nina gives a report, then on the next day Helen and Irving must both give reports, unless Nina's report is given on Wednesday.",
+    "question": "Which one of the following is a pair of students who, if they give reports on the same day as each other, must give reports on Wednesday?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_4",
+    "context": "Of the eight students—George, Helen, Irving, Kyle, Lenore, Nina, Olivia, and Robert—in a seminar, exactly six will give individual oral reports during three consecutive days—Monday, Tuesday, and Wednesday. Exactly two reports will be given each day—one in the morning and one in the afternoon—according to the following conditions: Tuesday is the only day on which George can give a report. Neither Olivia nor Robert can give an afternoon report. If Nina gives a report, then on the next day Helen and Irving must both give reports, unless Nina's report is given on Wednesday.",
+    "question": "If George, Nina, and Robert give reports and they do so on different days from one another, which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_5",
+    "context": "Of the eight students—George, Helen, Irving, Kyle, Lenore, Nina, Olivia, and Robert—in a seminar, exactly six will give individual oral reports during three consecutive days—Monday, Tuesday, and Wednesday. Exactly two reports will be given each day—one in the morning and one in the afternoon—according to the following conditions: Tuesday is the only day on which George can give a report. Neither Olivia nor Robert can give an afternoon report. If Nina gives a report, then on the next day Helen and Irving must both give reports, unless Nina's report is given on Wednesday.",
+    "question": "If Kyle gives the afternoon report on Tuesday, and Helen gives the afternoon report on Wednesday, which one of the following could be the list of the students who give the morning reports on Monday, Tuesday, and Wednesday, respectively?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_6",
+    "context": "Of the eight students—George, Helen, Irving, Kyle, Lenore, Nina, Olivia, and Robert—in a seminar, exactly six will give individual oral reports during three consecutive days—Monday, Tuesday, and Wednesday. Exactly two reports will be given each day—one in the morning and one in the afternoon—according to the following conditions: Tuesday is the only day on which George can give a report. Neither Olivia nor Robert can give an afternoon report. If Nina gives a report, then on the next day Helen and Irving must both give reports, unless Nina's report is given on Wednesday.",
+    "question": "If Helen, Kyle, and Lenore, not necessarily in that order, give the three morning reports, which one of the following must be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_7",
+    "context": "The organizer of a reading club will select at least five and at most six works from a group of nine works. The group consists of three French novels, three Russian novels, two French plays, and one Russian play. The organizer's selection of works must conform to the following requirements: No more than four French works are selected. At least three but no more than four novels are selected. At least as many French novels as Russian novels are selected. If both French plays are selected, then the Russian play is not selected.",
+    "question": "Which one of the following could be the organizer's selection of works?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_8",
+    "context": "The organizer of a reading club will select at least five and at most six works from a group of nine works. The group consists of three French novels, three Russian novels, two French plays, and one Russian play. The organizer's selection of works must conform to the following requirements: No more than four French works are selected. At least three but no more than four novels are selected. At least as many French novels as Russian novels are selected. If both French plays are selected, then the Russian play is not selected.",
+    "question": "Which one of the following could be true about the organizer's selection of works?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_9",
+    "context": "The organizer of a reading club will select at least five and at most six works from a group of nine works. The group consists of three French novels, three Russian novels, two French plays, and one Russian play. The organizer's selection of works must conform to the following requirements: No more than four French works are selected. At least three but no more than four novels are selected. At least as many French novels as Russian novels are selected. If both French plays are selected, then the Russian play is not selected.",
+    "question": "If the works selected include three French novels, which one of the following could be a complete and accurate list of the remaining works selected?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_10",
+    "context": "The organizer of a reading club will select at least five and at most six works from a group of nine works. The group consists of three French novels, three Russian novels, two French plays, and one Russian play. The organizer's selection of works must conform to the following requirements: No more than four French works are selected. At least three but no more than four novels are selected. At least as many French novels as Russian novels are selected. If both French plays are selected, then the Russian play is not selected.",
+    "question": "The organizer must at least select",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_11",
+    "context": "The organizer of a reading club will select at least five and at most six works from a group of nine works. The group consists of three French novels, three Russian novels, two French plays, and one Russian play. The organizer's selection of works must conform to the following requirements: No more than four French works are selected. At least three but no more than four novels are selected. At least as many French novels as Russian novels are selected. If both French plays are selected, then the Russian play is not selected.",
+    "question": "Any one of the following could be true about the organizer's selections of works EXCEPT:",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_12",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "Which one of the following lists the compositions in an order in which they could be performed during the concert, from first through eighth?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_13",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "P CANNOT be performed",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_14",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "If T is performed fifth and F is performed sixth, then S must be performed either",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_15",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "If O is performed immediately after T, then F must be performed either",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_16",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "If S is performed fourth, which one of the following could be an accurate list of the compositions performed first, second, and third, respectively?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_17",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "If P is performed third and S is performed sixth, the composition performed fifth must be either",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_18",
+    "context": "At a concert, exactly eight compositions—F, H, L, O, P, R, S, and T—are to be performed exactly once each, consecutively and one composition at a time. The order of their performance must satisfy the following conditions: T is performed either immediately before F or immediately after R. At least two compositions are performed either after F and before R, or after R and before F. O is performed either first or fifth. The eighth composition performed is either L or H. P is performed at some time before S. At least one composition is performed either after O and before S, or after S and before O.",
+    "question": "If exactly two compositions are performed after F but before O, then R must be performed",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_19",
+    "context": "On each of exactly seven consecutive days (day 1 though day 7), a pet shop features exactly one of three breeds of kitten—Himalayan, Manx, Siamese—and exactly one of three breeds of puppy—Greyhound, Newfoundland, Rottweiler. The following conditions must apply: Greyhounds are featured on day 1. No breed is featured on any two consecutive days. Any breed featured on day 1 is not featured on day 7. Himalayans are featured on exactly three days, but not on day 1. Rottweilers are not featured on day 7, nor on any day that features Himalayans.",
+    "question": "Which one of the following could be the order in which the breeds of kitten are featured in the pet shop, from day 1 though day 7?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_20",
+    "context": "On each of exactly seven consecutive days (day 1 though day 7), a pet shop features exactly one of three breeds of kitten—Himalayan, Manx, Siamese—and exactly one of three breeds of puppy—Greyhound, Newfoundland, Rottweiler. The following conditions must apply: Greyhounds are featured on day 1. No breed is featured on any two consecutive days. Any breed featured on day 1 is not featured on day 7. Himalayans are featured on exactly three days, but not on day 1. Rottweilers are not featured on day 7, nor on any day that features Himalayans.",
+    "question": "If Himalayans are not featured on day 2, which one of the following could be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_21",
+    "context": "On each of exactly seven consecutive days (day 1 though day 7), a pet shop features exactly one of three breeds of kitten—Himalayan, Manx, Siamese—and exactly one of three breeds of puppy—Greyhound, Newfoundland, Rottweiler. The following conditions must apply: Greyhounds are featured on day 1. No breed is featured on any two consecutive days. Any breed featured on day 1 is not featured on day 7. Himalayans are featured on exactly three days, but not on day 1. Rottweilers are not featured on day 7, nor on any day that features Himalayans.",
+    "question": "Which one of the following could be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_22",
+    "context": "On each of exactly seven consecutive days (day 1 though day 7), a pet shop features exactly one of three breeds of kitten—Himalayan, Manx, Siamese—and exactly one of three breeds of puppy—Greyhound, Newfoundland, Rottweiler. The following conditions must apply: Greyhounds are featured on day 1. No breed is featured on any two consecutive days. Any breed featured on day 1 is not featured on day 7. Himalayans are featured on exactly three days, but not on day 1. Rottweilers are not featured on day 7, nor on any day that features Himalayans.",
+    "question": "If Himalayans are not featured on day 7, then which one of the following pairs of days CANNOT feature both the same breed of kitten and the same breed of puppy?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_23",
+    "context": "On each of exactly seven consecutive days (day 1 though day 7), a pet shop features exactly one of three breeds of kitten—Himalayan, Manx, Siamese—and exactly one of three breeds of puppy—Greyhound, Newfoundland, Rottweiler. The following conditions must apply: Greyhounds are featured on day 1. No breed is featured on any two consecutive days. Any breed featured on day 1 is not featured on day 7. Himalayans are featured on exactly three days, but not on day 1. Rottweilers are not featured on day 7, nor on any day that features Himalayans.",
+    "question": "Which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_24",
+    "context": "On each of exactly seven consecutive days (day 1 though day 7), a pet shop features exactly one of three breeds of kitten—Himalayan, Manx, Siamese—and exactly one of three breeds of puppy—Greyhound, Newfoundland, Rottweiler. The following conditions must apply: Greyhounds are featured on day 1. No breed is featured on any two consecutive days. Any breed featured on day 1 is not featured on day 7. Himalayans are featured on exactly three days, but not on day 1. Rottweilers are not featured on day 7, nor on any day that features Himalayans.",
+    "question": "If Himalayans are not featured on day 7, which one of the following could be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_1",
+    "context": "A panel of five scientists will be formed. The panelists will be selected from among three botanists—F, G, and H—three chemists—K, L, and M—and three zoologists—P, Q, and R. Selection is governed by the following conditions: The panel must include at least one scientist of each of the three types. If more than one botanist is selected, then at most one zoologist is selected. F and K cannot both be selected. K and M cannot both be selected. If M is selected, both P and R must be selected.",
+    "question": "Which one of the following is an acceptable selection of scientists for the panel?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_2",
+    "context": "A panel of five scientists will be formed. The panelists will be selected from among three botanists—F, G, and H—three chemists—K, L, and M—and three zoologists—P, Q, and R. Selection is governed by the following conditions: The panel must include at least one scientist of each of the three types. If more than one botanist is selected, then at most one zoologist is selected. F and K cannot both be selected. K and M cannot both be selected. If M is selected, both P and R must be selected.",
+    "question": "If M is the only chemist selected for the panel, which one of the following must be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_3",
+    "context": "A panel of five scientists will be formed. The panelists will be selected from among three botanists—F, G, and H—three chemists—K, L, and M—and three zoologists—P, Q, and R. Selection is governed by the following conditions: The panel must include at least one scientist of each of the three types. If more than one botanist is selected, then at most one zoologist is selected. F and K cannot both be selected. K and M cannot both be selected. If M is selected, both P and R must be selected.",
+    "question": "If four of the scientists selected are F, L, Q, and R, which one of the following must be the fifth scientist selected?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_4",
+    "context": "A panel of five scientists will be formed. The panelists will be selected from among three botanists—F, G, and H—three chemists—K, L, and M—and three zoologists—P, Q, and R. Selection is governed by the following conditions: The panel must include at least one scientist of each of the three types. If more than one botanist is selected, then at most one zoologist is selected. F and K cannot both be selected. K and M cannot both be selected. If M is selected, both P and R must be selected.",
+    "question": "If P is the only zoologist selected, which one of the following must be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_5",
+    "context": "A panel of five scientists will be formed. The panelists will be selected from among three botanists—F, G, and H—three chemists—K, L, and M—and three zoologists—P, Q, and R. Selection is governed by the following conditions: The panel must include at least one scientist of each of the three types. If more than one botanist is selected, then at most one zoologist is selected. F and K cannot both be selected. K and M cannot both be selected. If M is selected, both P and R must be selected.",
+    "question": "If both G and H are among the scientists selected, then the panel must include either",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_6",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "Which one of the following lists could accurately identify the cargo held in each of the loading dock's first three bays, listed in order from bay 1 to bay 3?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_7",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "Which one of the following CANNOT be the type of cargo held in bay 4?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_8",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "If there is exactly one bay between the bay holding machinery and the bay holding grain, then for exactly how many of the six bays is the type of cargo that bay is holding completely determined?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_9",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "Which one of the following could be the bay holding livestock?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_10",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "Which one of the following must be false?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_11",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "If the bay holding produce is next to the bay holding livestock, then each of the following could be true EXCEPT:",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_12",
+    "context": "A loading dock consists of exactly six bays numbered 1 through 6 consecutively from one side of the dock to the other. Each bay is holding a different one of exactly six types of cargo—fuel, grain, livestock, machinery, produce, or textiles. The following apply: The bay holding grain has a higher number than the bay holding livestock. The bay holding livestock has a higher number than the bay holding textiles. The bay holding produce has a higher number than the bay holding fuel. The bay holding textiles is next to the bay holding produce.",
+    "question": "If bay 4 is holding produce, then for exactly how many of the six bays is the type of cargo that bay is holding completely determined?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_13",
+    "context": "A bakery makes exactly three kinds of cookie—oatmeal, peanut butter, and sugar. Exactly three batches of each kind of cookie are made each week (Monday through Friday) and each batch is made, from start to finish, on a single day. The following conditions apply: No two batches of the same kind of cookie are made on the same day. At least one batch of cookies is made on Monday. The second batch of oatmeal cookies is made on the same day as the first batch of peanut butter cookies. The second batch of sugar cookies is made on Thursday.",
+    "question": "Which one of the following could be a complete and accurate list of the days on which the batches of each kind of cookie are made?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_14",
+    "context": "A bakery makes exactly three kinds of cookie—oatmeal, peanut butter, and sugar. Exactly three batches of each kind of cookie are made each week (Monday through Friday) and each batch is made, from start to finish, on a single day. The following conditions apply: No two batches of the same kind of cookie are made on the same day. At least one batch of cookies is made on Monday. The second batch of oatmeal cookies is made on the same day as the first batch of peanut butter cookies. The second batch of sugar cookies is made on Thursday.",
+    "question": "How many of the days, Monday through Friday, are such that at most two batches of cookies could be made on that day?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_15",
+    "context": "A bakery makes exactly three kinds of cookie—oatmeal, peanut butter, and sugar. Exactly three batches of each kind of cookie are made each week (Monday through Friday) and each batch is made, from start to finish, on a single day. The following conditions apply: No two batches of the same kind of cookie are made on the same day. At least one batch of cookies is made on Monday. The second batch of oatmeal cookies is made on the same day as the first batch of peanut butter cookies. The second batch of sugar cookies is made on Thursday.",
+    "question": "If the first batch of peanut butter cookies is made on Tuesday, then each of the following could be true EXCEPT:",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_16",
+    "context": "A bakery makes exactly three kinds of cookie—oatmeal, peanut butter, and sugar. Exactly three batches of each kind of cookie are made each week (Monday through Friday) and each batch is made, from start to finish, on a single day. The following conditions apply: No two batches of the same kind of cookie are made on the same day. At least one batch of cookies is made on Monday. The second batch of oatmeal cookies is made on the same day as the first batch of peanut butter cookies. The second batch of sugar cookies is made on Thursday.",
+    "question": "If no batch of cookies is made on Wednesday, then which one of the following must be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_17",
+    "context": "A bakery makes exactly three kinds of cookie—oatmeal, peanut butter, and sugar. Exactly three batches of each kind of cookie are made each week (Monday through Friday) and each batch is made, from start to finish, on a single day. The following conditions apply: No two batches of the same kind of cookie are made on the same day. At least one batch of cookies is made on Monday. The second batch of oatmeal cookies is made on the same day as the first batch of peanut butter cookies. The second batch of sugar cookies is made on Thursday.",
+    "question": "If the number of batches made on Friday is exactly one, then which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_18",
+    "context": "A bakery makes exactly three kinds of cookie—oatmeal, peanut butter, and sugar. Exactly three batches of each kind of cookie are made each week (Monday through Friday) and each batch is made, from start to finish, on a single day. The following conditions apply: No two batches of the same kind of cookie are made on the same day. At least one batch of cookies is made on Monday. The second batch of oatmeal cookies is made on the same day as the first batch of peanut butter cookies. The second batch of sugar cookies is made on Thursday.",
+    "question": "If one kind of cookie's first batch is made on the same day as another kind of cookie's third batch, then which one of the following could be false?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_19",
+    "context": "For the school paper, five students—Jiang, Kramer, Lopez, Megregian, and O'Neill—each review one or more of exactly three plays: Sunset, Tamerlane, and Undulation, but do not review any other plays. The following conditions must apply: Kramer and Lopez each review fewer of the plays than Megregian. Neither Lopez nor Megregian reviews any play Jiang reviews. Kramer and O'Neill both review Tamerlane. Exactly two of the students review exactly the same play or plays as each other.",
+    "question": "Which one of the following could be an accurate and complete list of the students who review only Sunset?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_20",
+    "context": "For the school paper, five students—Jiang, Kramer, Lopez, Megregian, and O'Neill—each review one or more of exactly three plays: Sunset, Tamerlane, and Undulation, but do not review any other plays. The following conditions must apply: Kramer and Lopez each review fewer of the plays than Megregian. Neither Lopez nor Megregian reviews any play Jiang reviews. Kramer and O'Neill both review Tamerlane. Exactly two of the students review exactly the same play or plays as each other.",
+    "question": "Which one of the following must be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_21",
+    "context": "For the school paper, five students—Jiang, Kramer, Lopez, Megregian, and O'Neill—each review one or more of exactly three plays: Sunset, Tamerlane, and Undulation, but do not review any other plays. The following conditions must apply: Kramer and Lopez each review fewer of the plays than Megregian. Neither Lopez nor Megregian reviews any play Jiang reviews. Kramer and O'Neill both review Tamerlane. Exactly two of the students review exactly the same play or plays as each other.",
+    "question": "If exactly three of the students review Undulation, which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_22",
+    "context": "For the school paper, five students—Jiang, Kramer, Lopez, Megregian, and O'Neill—each review one or more of exactly three plays: Sunset, Tamerlane, and Undulation, but do not review any other plays. The following conditions must apply: Kramer and Lopez each review fewer of the plays than Megregian. Neither Lopez nor Megregian reviews any play Jiang reviews. Kramer and O'Neill both review Tamerlane. Exactly two of the students review exactly the same play or plays as each other.",
+    "question": "Which one of the following could be an accurate and complete list of the students who review Tamerlane?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_23",
+    "context": "For the school paper, five students—Jiang, Kramer, Lopez, Megregian, and O'Neill—each review one or more of exactly three plays: Sunset, Tamerlane, and Undulation, but do not review any other plays. The following conditions must apply: Kramer and Lopez each review fewer of the plays than Megregian. Neither Lopez nor Megregian reviews any play Jiang reviews. Kramer and O'Neill both review Tamerlane. Exactly two of the students review exactly the same play or plays as each other.",
+    "question": "If Jiang does not review Tamerlane, then which one of the following must be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_1",
+    "context": "An administrator must assign parking spaces to six new employees: Robertson, Souza, Togowa, Vaughn, Xu, and Young. Each of the six employees must be assigned one of the following parking spaces: #1, #2, #3, #4, #5, or #6. No two employees can be assigned the same parking space. The following rules govern the assignment of parking spaces: Young must be assigned a higher-numbered parking space than Togowa. Xu must be assigned a higher-numbered parking space than Souza. Robertson must be assigned a higher-numbered parking space than Young. Robertson must be assigned parking space #1, #2, #3, or #4.",
+    "question": "Which one of the following could be the assignment of parking spaces to the new employees?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_2",
+    "context": "An administrator must assign parking spaces to six new employees: Robertson, Souza, Togowa, Vaughn, Xu, and Young. Each of the six employees must be assigned one of the following parking spaces: #1, #2, #3, #4, #5, or #6. No two employees can be assigned the same parking space. The following rules govern the assignment of parking spaces: Young must be assigned a higher-numbered parking space than Togowa. Xu must be assigned a higher-numbered parking space than Souza. Robertson must be assigned a higher-numbered parking space than Young. Robertson must be assigned parking space #1, #2, #3, or #4.",
+    "question": "If Togowa is assigned a higher-numbered parking space than Souza, then which one of the following could be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_3",
+    "context": "An administrator must assign parking spaces to six new employees: Robertson, Souza, Togowa, Vaughn, Xu, and Young. Each of the six employees must be assigned one of the following parking spaces: #1, #2, #3, #4, #5, or #6. No two employees can be assigned the same parking space. The following rules govern the assignment of parking spaces: Young must be assigned a higher-numbered parking space than Togowa. Xu must be assigned a higher-numbered parking space than Souza. Robertson must be assigned a higher-numbered parking space than Young. Robertson must be assigned parking space #1, #2, #3, or #4.",
+    "question": "The assignment of parking spaces to each of the new employees is fully and uniquely determined if which one of the following is true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_4",
+    "context": "An administrator must assign parking spaces to six new employees: Robertson, Souza, Togowa, Vaughn, Xu, and Young. Each of the six employees must be assigned one of the following parking spaces: #1, #2, #3, #4, #5, or #6. No two employees can be assigned the same parking space. The following rules govern the assignment of parking spaces: Young must be assigned a higher-numbered parking space than Togowa. Xu must be assigned a higher-numbered parking space than Souza. Robertson must be assigned a higher-numbered parking space than Young. Robertson must be assigned parking space #1, #2, #3, or #4.",
+    "question": "For how many of the six new employees is the assignment of a parking space limited to one of only two possible spaces?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_5",
+    "context": "An administrator must assign parking spaces to six new employees: Robertson, Souza, Togowa, Vaughn, Xu, and Young. Each of the six employees must be assigned one of the following parking spaces: #1, #2, #3, #4, #5, or #6. No two employees can be assigned the same parking space. The following rules govern the assignment of parking spaces: Young must be assigned a higher-numbered parking space than Togowa. Xu must be assigned a higher-numbered parking space than Souza. Robertson must be assigned a higher-numbered parking space than Young. Robertson must be assigned parking space #1, #2, #3, or #4.",
+    "question": "If Young is assigned a higher-numbered parking space than Souza, then which one of the following could be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_6",
+    "context": "An administrator must assign parking spaces to six new employees: Robertson, Souza, Togowa, Vaughn, Xu, and Young. Each of the six employees must be assigned one of the following parking spaces: #1, #2, #3, #4, #5, or #6. No two employees can be assigned the same parking space. The following rules govern the assignment of parking spaces: Young must be assigned a higher-numbered parking space than Togowa. Xu must be assigned a higher-numbered parking space than Souza. Robertson must be assigned a higher-numbered parking space than Young. Robertson must be assigned parking space #1, #2, #3, or #4.",
+    "question": "If Robertson is assigned parking space #3, then which one of the following must be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_7",
+    "context": "A government needs to assign new ambassadors to Venezuela, Yemen, and Zambia. The candidates for these ambassadorships are Jaramillo, Kayne, Landon, Novetzke, and Ong. One ambassador will be assigned to each country, and no ambassador will be assigned to more than one country. The assignment of the ambassadors must meet the following constraints: Either Kayne or Novetzke, but not both, is assigned to one of the ambassadorships. If Jaramillo is assigned to one of the ambassadorships, then so is Kayne. If Ong is assigned as ambassador to Venezuela, Kayne is not assigned as ambassador to Yemen. If Landon is assigned to an ambassadorship, it is to Zambia.",
+    "question": "Which one of the following could be the assignment of the ambassadors?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_8",
+    "context": "A government needs to assign new ambassadors to Venezuela, Yemen, and Zambia. The candidates for these ambassadorships are Jaramillo, Kayne, Landon, Novetzke, and Ong. One ambassador will be assigned to each country, and no ambassador will be assigned to more than one country. The assignment of the ambassadors must meet the following constraints: Either Kayne or Novetzke, but not both, is assigned to one of the ambassadorships. If Jaramillo is assigned to one of the ambassadorships, then so is Kayne. If Ong is assigned as ambassador to Venezuela, Kayne is not assigned as ambassador to Yemen. If Landon is assigned to an ambassadorship, it is to Zambia.",
+    "question": "The pair of candidates who are not assigned to ambassadorships could be",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_9",
+    "context": "A government needs to assign new ambassadors to Venezuela, Yemen, and Zambia. The candidates for these ambassadorships are Jaramillo, Kayne, Landon, Novetzke, and Ong. One ambassador will be assigned to each country, and no ambassador will be assigned to more than one country. The assignment of the ambassadors must meet the following constraints: Either Kayne or Novetzke, but not both, is assigned to one of the ambassadorships. If Jaramillo is assigned to one of the ambassadorships, then so is Kayne. If Ong is assigned as ambassador to Venezuela, Kayne is not assigned as ambassador to Yemen. If Landon is assigned to an ambassadorship, it is to Zambia.",
+    "question": "If Ong is assigned as ambassador to Venezuela, then the other two ambassadors assigned could be",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_10",
+    "context": "A government needs to assign new ambassadors to Venezuela, Yemen, and Zambia. The candidates for these ambassadorships are Jaramillo, Kayne, Landon, Novetzke, and Ong. One ambassador will be assigned to each country, and no ambassador will be assigned to more than one country. The assignment of the ambassadors must meet the following constraints: Either Kayne or Novetzke, but not both, is assigned to one of the ambassadorships. If Jaramillo is assigned to one of the ambassadorships, then so is Kayne. If Ong is assigned as ambassador to Venezuela, Kayne is not assigned as ambassador to Yemen. If Landon is assigned to an ambassadorship, it is to Zambia.",
+    "question": "If Kayne is assigned as ambassador to Yemen, which one of the following must be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_11",
+    "context": "A government needs to assign new ambassadors to Venezuela, Yemen, and Zambia. The candidates for these ambassadorships are Jaramillo, Kayne, Landon, Novetzke, and Ong. One ambassador will be assigned to each country, and no ambassador will be assigned to more than one country. The assignment of the ambassadors must meet the following constraints: Either Kayne or Novetzke, but not both, is assigned to one of the ambassadorships. If Jaramillo is assigned to one of the ambassadorships, then so is Kayne. If Ong is assigned as ambassador to Venezuela, Kayne is not assigned as ambassador to Yemen. If Landon is assigned to an ambassadorship, it is to Zambia.",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_12",
+    "context": "A government needs to assign new ambassadors to Venezuela, Yemen, and Zambia. The candidates for these ambassadorships are Jaramillo, Kayne, Landon, Novetzke, and Ong. One ambassador will be assigned to each country, and no ambassador will be assigned to more than one country. The assignment of the ambassadors must meet the following constraints: Either Kayne or Novetzke, but not both, is assigned to one of the ambassadorships. If Jaramillo is assigned to one of the ambassadorships, then so is Kayne. If Ong is assigned as ambassador to Venezuela, Kayne is not assigned as ambassador to Yemen. If Landon is assigned to an ambassadorship, it is to Zambia.",
+    "question": "Which one of the following, if substituted for the constraint that if Jaramillo is assigned to one of the ambassadorships, then so is Kayne, would have the same effect in determining the assignment of the ambassadors?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_13",
+    "context": "On the first day of a two-day study for a cycling magazine, four riders—Reynaldo, Seamus, Theresa, and Yuki—will each test one of four bicycles—F, G, H, and J. Each rider will then test a different one of the bicycles on the second day. Each rider tests only one bicycle per day, and all four bicycles are tested each day. The assignment of riders to bicycles is subject to the following conditions: Reynaldo cannot test F. Yuki cannot test J. Theresa must be one of the testers for H. The bicycle that Yuki tests on the first day must be tested by Seamus on the second day.",
+    "question": "Which one of the following is a possible assignment of riders to bicycles, with the riders for each bicycle listed in the order in which they test the bicycle?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_14",
+    "context": "On the first day of a two-day study for a cycling magazine, four riders—Reynaldo, Seamus, Theresa, and Yuki—will each test one of four bicycles—F, G, H, and J. Each rider will then test a different one of the bicycles on the second day. Each rider tests only one bicycle per day, and all four bicycles are tested each day. The assignment of riders to bicycles is subject to the following conditions: Reynaldo cannot test F. Yuki cannot test J. Theresa must be one of the testers for H. The bicycle that Yuki tests on the first day must be tested by Seamus on the second day.",
+    "question": "If Theresa tests G on the second day, then which one of the following must be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_15",
+    "context": "On the first day of a two-day study for a cycling magazine, four riders—Reynaldo, Seamus, Theresa, and Yuki—will each test one of four bicycles—F, G, H, and J. Each rider will then test a different one of the bicycles on the second day. Each rider tests only one bicycle per day, and all four bicycles are tested each day. The assignment of riders to bicycles is subject to the following conditions: Reynaldo cannot test F. Yuki cannot test J. Theresa must be one of the testers for H. The bicycle that Yuki tests on the first day must be tested by Seamus on the second day.",
+    "question": "Any of the following could be true EXCEPT:",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_16",
+    "context": "On the first day of a two-day study for a cycling magazine, four riders—Reynaldo, Seamus, Theresa, and Yuki—will each test one of four bicycles—F, G, H, and J. Each rider will then test a different one of the bicycles on the second day. Each rider tests only one bicycle per day, and all four bicycles are tested each day. The assignment of riders to bicycles is subject to the following conditions: Reynaldo cannot test F. Yuki cannot test J. Theresa must be one of the testers for H. The bicycle that Yuki tests on the first day must be tested by Seamus on the second day.",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_17",
+    "context": "On the first day of a two-day study for a cycling magazine, four riders—Reynaldo, Seamus, Theresa, and Yuki—will each test one of four bicycles—F, G, H, and J. Each rider will then test a different one of the bicycles on the second day. Each rider tests only one bicycle per day, and all four bicycles are tested each day. The assignment of riders to bicycles is subject to the following conditions: Reynaldo cannot test F. Yuki cannot test J. Theresa must be one of the testers for H. The bicycle that Yuki tests on the first day must be tested by Seamus on the second day.",
+    "question": "If Theresa tests J on the first day, then which one of the following could be true?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_18",
+    "context": "On the first day of a two-day study for a cycling magazine, four riders—Reynaldo, Seamus, Theresa, and Yuki—will each test one of four bicycles—F, G, H, and J. Each rider will then test a different one of the bicycles on the second day. Each rider tests only one bicycle per day, and all four bicycles are tested each day. The assignment of riders to bicycles is subject to the following conditions: Reynaldo cannot test F. Yuki cannot test J. Theresa must be one of the testers for H. The bicycle that Yuki tests on the first day must be tested by Seamus on the second day.",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_19",
+    "context": "Exactly eight books—F, G, H, I, K, L, M, O—are placed on a bookcase with exactly three shelves—the top shelf, the middle shelf, and the bottom shelf. At least two books are placed on each shelf. The following conditions must apply: More of the books are placed on the bottom shelf than the top shelf. I is placed on the middle shelf. K is placed on a higher shelf than F. O is placed on a higher shelf than L. F is placed on the same shelf as M.",
+    "question": "Which one of the following could be a complete and accurate list of the books placed on the bottom shelf?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_20",
+    "context": "Exactly eight books—F, G, H, I, K, L, M, O—are placed on a bookcase with exactly three shelves—the top shelf, the middle shelf, and the bottom shelf. At least two books are placed on each shelf. The following conditions must apply: More of the books are placed on the bottom shelf than the top shelf. I is placed on the middle shelf. K is placed on a higher shelf than F. O is placed on a higher shelf than L. F is placed on the same shelf as M.",
+    "question": "It is fully determined which of the shelves each of the books is placed on if which one of the following is true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_21",
+    "context": "Exactly eight books—F, G, H, I, K, L, M, O—are placed on a bookcase with exactly three shelves—the top shelf, the middle shelf, and the bottom shelf. At least two books are placed on each shelf. The following conditions must apply: More of the books are placed on the bottom shelf than the top shelf. I is placed on the middle shelf. K is placed on a higher shelf than F. O is placed on a higher shelf than L. F is placed on the same shelf as M.",
+    "question": "Which one of the following must be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_22",
+    "context": "Exactly eight books—F, G, H, I, K, L, M, O—are placed on a bookcase with exactly three shelves—the top shelf, the middle shelf, and the bottom shelf. At least two books are placed on each shelf. The following conditions must apply: More of the books are placed on the bottom shelf than the top shelf. I is placed on the middle shelf. K is placed on a higher shelf than F. O is placed on a higher shelf than L. F is placed on the same shelf as M.",
+    "question": "If G is placed on the top shelf, then which one of the following could be a complete and accurate list of the books placed on the middle shelf?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_23",
+    "context": "Exactly eight books—F, G, H, I, K, L, M, O—are placed on a bookcase with exactly three shelves—the top shelf, the middle shelf, and the bottom shelf. At least two books are placed on each shelf. The following conditions must apply: More of the books are placed on the bottom shelf than the top shelf. I is placed on the middle shelf. K is placed on a higher shelf than F. O is placed on a higher shelf than L. F is placed on the same shelf as M.",
+    "question": "If L is placed on a shelf higher than the shelf H is placed on, then which one of the following must be true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_1",
+    "context": "A chemistry class has six lab sessions scheduled over three days—Wednesday, Thursday, and Friday—one session heing held each morning and one each afternoon. Each session will be led by a different lab assistant—Julio, Kevin, Lan, Nessa, Olivia, or Rebecca. The assignment of lab assistants to sessions is constrained as follows: Kevin and Rebecca must lead sessions that meet on the same day. Lan and Olivia cannot lead sessions that meet on the same day. Nessa must lead an afternoon session. Julio's session must meet on an earlier day of the week than Olivia's.",
+    "question": "Which one of the following could he an accurate assignment of lab assistants to morning and afternoon sessions, respectively, on the three days?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_2",
+    "context": "A chemistry class has six lab sessions scheduled over three days—Wednesday, Thursday, and Friday—one session heing held each morning and one each afternoon. Each session will be led by a different lab assistant—Julio, Kevin, Lan, Nessa, Olivia, or Rebecca. The assignment of lab assistants to sessions is constrained as follows: Kevin and Rebecca must lead sessions that meet on the same day. Lan and Olivia cannot lead sessions that meet on the same day. Nessa must lead an afternoon session. Julio's session must meet on an earlier day of the week than Olivia's.",
+    "question": "If Lan does not lead a Wednesday session, then which one of the following lab assistants must lead a Thursday session?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_3",
+    "context": "A chemistry class has six lab sessions scheduled over three days—Wednesday, Thursday, and Friday—one session heing held each morning and one each afternoon. Each session will be led by a different lab assistant—Julio, Kevin, Lan, Nessa, Olivia, or Rebecca. The assignment of lab assistants to sessions is constrained as follows: Kevin and Rebecca must lead sessions that meet on the same day. Lan and Olivia cannot lead sessions that meet on the same day. Nessa must lead an afternoon session. Julio's session must meet on an earlier day of the week than Olivia's.",
+    "question": "If Kevin's session meets on the day before Nessa's, then which one of the following is a complete and accurate list of lab assistants any one of whom could lead the Thursday afternoon session?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_4",
+    "context": "A chemistry class has six lab sessions scheduled over three days—Wednesday, Thursday, and Friday—one session heing held each morning and one each afternoon. Each session will be led by a different lab assistant—Julio, Kevin, Lan, Nessa, Olivia, or Rebecca. The assignment of lab assistants to sessions is constrained as follows: Kevin and Rebecca must lead sessions that meet on the same day. Lan and Olivia cannot lead sessions that meet on the same day. Nessa must lead an afternoon session. Julio's session must meet on an earlier day of the week than Olivia's.",
+    "question": "If Julio and Kevin both lead morning sessions, then any of the following could be true EXCEPT:",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_5",
+    "context": "A chemistry class has six lab sessions scheduled over three days—Wednesday, Thursday, and Friday—one session heing held each morning and one each afternoon. Each session will be led by a different lab assistant—Julio, Kevin, Lan, Nessa, Olivia, or Rebecca. The assignment of lab assistants to sessions is constrained as follows: Kevin and Rebecca must lead sessions that meet on the same day. Lan and Olivia cannot lead sessions that meet on the same day. Nessa must lead an afternoon session. Julio's session must meet on an earlier day of the week than Olivia's.",
+    "question": "If Julio leads the Thursday afternoon session, then for how many of the other lab assistants can one determine which sessions they lead?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_6",
+    "context": "A shopping center has exactly seven spaces—space 1 through space 7—arranged in a straight row. Seven businesses—an optometrist, a pharmacy, two restaurants, a shoe store, a toy store, and a veterinarian—will be located in the shopping center, one in each space. The locations of the businesses are subject to the following constraints: The pharmacy must be at one end of the row and one of the restaurants at the other. The two restaurants must be separated by at least two other businesses. The pharmacy must be next to either the optometrist or the veterinarian. The toy store cannot be next to the veterinarian.",
+    "question": "Which one of the following could be the order of the businesses in spaces 1 through 7 respectively?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_7",
+    "context": "A shopping center has exactly seven spaces—space 1 through space 7—arranged in a straight row. Seven businesses—an optometrist, a pharmacy, two restaurants, a shoe store, a toy store, and a veterinarian—will be located in the shopping center, one in each space. The locations of the businesses are subject to the following constraints: The pharmacy must be at one end of the row and one of the restaurants at the other. The two restaurants must be separated by at least two other businesses. The pharmacy must be next to either the optometrist or the veterinarian. The toy store cannot be next to the veterinarian.",
+    "question": "If the shoe store is in space 2, which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_8",
+    "context": "A shopping center has exactly seven spaces—space 1 through space 7—arranged in a straight row. Seven businesses—an optometrist, a pharmacy, two restaurants, a shoe store, a toy store, and a veterinarian—will be located in the shopping center, one in each space. The locations of the businesses are subject to the following constraints: The pharmacy must be at one end of the row and one of the restaurants at the other. The two restaurants must be separated by at least two other businesses. The pharmacy must be next to either the optometrist or the veterinarian. The toy store cannot be next to the veterinarian.",
+    "question": "If the veterinarian is in space 5, which one of the following must be true?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_9",
+    "context": "A shopping center has exactly seven spaces—space 1 through space 7—arranged in a straight row. Seven businesses—an optometrist, a pharmacy, two restaurants, a shoe store, a toy store, and a veterinarian—will be located in the shopping center, one in each space. The locations of the businesses are subject to the following constraints: The pharmacy must be at one end of the row and one of the restaurants at the other. The two restaurants must be separated by at least two other businesses. The pharmacy must be next to either the optometrist or the veterinarian. The toy store cannot be next to the veterinarian.",
+    "question": "If the optometrist is next to the shoe store, the businesses immediately on either side of this pair must be",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_10",
+    "context": "A shopping center has exactly seven spaces—space 1 through space 7—arranged in a straight row. Seven businesses—an optometrist, a pharmacy, two restaurants, a shoe store, a toy store, and a veterinarian—will be located in the shopping center, one in each space. The locations of the businesses are subject to the following constraints: The pharmacy must be at one end of the row and one of the restaurants at the other. The two restaurants must be separated by at least two other businesses. The pharmacy must be next to either the optometrist or the veterinarian. The toy store cannot be next to the veterinarian.",
+    "question": "If the shoe store is in space 4, which one of the following must be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_11",
+    "context": "A shopping center has exactly seven spaces—space 1 through space 7—arranged in a straight row. Seven businesses—an optometrist, a pharmacy, two restaurants, a shoe store, a toy store, and a veterinarian—will be located in the shopping center, one in each space. The locations of the businesses are subject to the following constraints: The pharmacy must be at one end of the row and one of the restaurants at the other. The two restaurants must be separated by at least two other businesses. The pharmacy must be next to either the optometrist or the veterinarian. The toy store cannot be next to the veterinarian.",
+    "question": "Which one of the following, if substituted for the constraint that the two restaurants must be separated by at least two other businesses, would have the same effect in determining the locations of the businesses?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_12",
+    "context": "A software company employs exactly seven sales representatives—Kim, Mahr, Parra, Quinn, Stuckey, Tiao, and Udall—to work in its three sales zones—Zone 1, Zone 2, and Zone 3. Each sales representative works in exactly one of the sales zones, in accordance with the following conditions: Either Parra or Tiao (but not both) works in Zone 1. Either Tiao or Udall (but not both) works in Zone 2. Parra and Quinn work in the same sales zone as each other. Stuckey and Udall work in the same sales zone as each other. There are more of the sales representatives working in Zone 3 than in Zone 2.",
+    "question": "Which one of the following could be an accurate matching of the sales representatives to the sales zones in which they work?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_13",
+    "context": "A software company employs exactly seven sales representatives—Kim, Mahr, Parra, Quinn, Stuckey, Tiao, and Udall—to work in its three sales zones—Zone 1, Zone 2, and Zone 3. Each sales representative works in exactly one of the sales zones, in accordance with the following conditions: Either Parra or Tiao (but not both) works in Zone 1. Either Tiao or Udall (but not both) works in Zone 2. Parra and Quinn work in the same sales zone as each other. Stuckey and Udall work in the same sales zone as each other. There are more of the sales representatives working in Zone 3 than in Zone 2.",
+    "question": "If more sales representatives work in Zone 1 than in Zone 3, then which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_14",
+    "context": "A software company employs exactly seven sales representatives—Kim, Mahr, Parra, Quinn, Stuckey, Tiao, and Udall—to work in its three sales zones—Zone 1, Zone 2, and Zone 3. Each sales representative works in exactly one of the sales zones, in accordance with the following conditions: Either Parra or Tiao (but not both) works in Zone 1. Either Tiao or Udall (but not both) works in Zone 2. Parra and Quinn work in the same sales zone as each other. Stuckey and Udall work in the same sales zone as each other. There are more of the sales representatives working in Zone 3 than in Zone 2.",
+    "question": "Which one of the following must be false?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_15",
+    "context": "A software company employs exactly seven sales representatives—Kim, Mahr, Parra, Quinn, Stuckey, Tiao, and Udall—to work in its three sales zones—Zone 1, Zone 2, and Zone 3. Each sales representative works in exactly one of the sales zones, in accordance with the following conditions: Either Parra or Tiao (but not both) works in Zone 1. Either Tiao or Udall (but not both) works in Zone 2. Parra and Quinn work in the same sales zone as each other. Stuckey and Udall work in the same sales zone as each other. There are more of the sales representatives working in Zone 3 than in Zone 2.",
+    "question": "Which one of the following could be a complete and accurate list of the sales representatives working in Zone 3?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_16",
+    "context": "A software company employs exactly seven sales representatives—Kim, Mahr, Parra, Quinn, Stuckey, Tiao, and Udall—to work in its three sales zones—Zone 1, Zone 2, and Zone 3. Each sales representative works in exactly one of the sales zones, in accordance with the following conditions: Either Parra or Tiao (but not both) works in Zone 1. Either Tiao or Udall (but not both) works in Zone 2. Parra and Quinn work in the same sales zone as each other. Stuckey and Udall work in the same sales zone as each other. There are more of the sales representatives working in Zone 3 than in Zone 2.",
+    "question": "Quinn CANNOT work in the same sales zone as which one of the following?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_17",
+    "context": "A software company employs exactly seven sales representatives—Kim, Mahr, Parra, Quinn, Stuckey, Tiao, and Udall—to work in its three sales zones—Zone 1, Zone 2, and Zone 3. Each sales representative works in exactly one of the sales zones, in accordance with the following conditions: Either Parra or Tiao (but not both) works in Zone 1. Either Tiao or Udall (but not both) works in Zone 2. Parra and Quinn work in the same sales zone as each other. Stuckey and Udall work in the same sales zone as each other. There are more of the sales representatives working in Zone 3 than in Zone 2.",
+    "question": "If Mahr and Stuckey work in the same sales zone, then which one of the following could be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_18",
+    "context": "During a recital, two pianists—Wayne and Zara—will perform solos. There will be five solos altogether, performed one immediately after another. Each solo will be either a modern piece or a traditional piece. The choice of pianist and type of piece for the solos must conform to the following conditions: The third solo is a traditional piece. Exactly two of the traditional pieces are performed consecutively. In the fourth solo, either Wayne performs a traditional piece or Zara performs a modern piece. The pianist who performs the second solo does not perform the fifth solo. No traditional piece is performed until Wayne performs at least one modem piece.",
+    "question": "Which one of the following could be all of the solos that are traditional pieces?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_19",
+    "context": "During a recital, two pianists—Wayne and Zara—will perform solos. There will be five solos altogether, performed one immediately after another. Each solo will be either a modern piece or a traditional piece. The choice of pianist and type of piece for the solos must conform to the following conditions: The third solo is a traditional piece. Exactly two of the traditional pieces are performed consecutively. In the fourth solo, either Wayne performs a traditional piece or Zara performs a modern piece. The pianist who performs the second solo does not perform the fifth solo. No traditional piece is performed until Wayne performs at least one modem piece.",
+    "question": "What is the minimum number of solos in which Wayne performs a traditional piece?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_20",
+    "context": "During a recital, two pianists—Wayne and Zara—will perform solos. There will be five solos altogether, performed one immediately after another. Each solo will be either a modern piece or a traditional piece. The choice of pianist and type of piece for the solos must conform to the following conditions: The third solo is a traditional piece. Exactly two of the traditional pieces are performed consecutively. In the fourth solo, either Wayne performs a traditional piece or Zara performs a modern piece. The pianist who performs the second solo does not perform the fifth solo. No traditional piece is performed until Wayne performs at least one modem piece.",
+    "question": "If the pianist who performs the first solo also performs the second solo, then which one of the following must be true?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_21",
+    "context": "During a recital, two pianists—Wayne and Zara—will perform solos. There will be five solos altogether, performed one immediately after another. Each solo will be either a modern piece or a traditional piece. The choice of pianist and type of piece for the solos must conform to the following conditions: The third solo is a traditional piece. Exactly two of the traditional pieces are performed consecutively. In the fourth solo, either Wayne performs a traditional piece or Zara performs a modern piece. The pianist who performs the second solo does not perform the fifth solo. No traditional piece is performed until Wayne performs at least one modem piece.",
+    "question": "If the fifth solo is a traditional piece, then for exactly determined?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_22",
+    "context": "During a recital, two pianists—Wayne and Zara—will perform solos. There will be five solos altogether, performed one immediately after another. Each solo will be either a modern piece or a traditional piece. The choice of pianist and type of piece for the solos must conform to the following conditions: The third solo is a traditional piece. Exactly two of the traditional pieces are performed consecutively. In the fourth solo, either Wayne performs a traditional piece or Zara performs a modern piece. The pianist who performs the second solo does not perform the fifth solo. No traditional piece is performed until Wayne performs at least one modem piece.",
+    "question": "If in the fifth solo Wayne performs a traditional piece, which one of the following could be true?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_1",
+    "context": "A realtor will show a prospective buyer seven houses—J, K, L, M, N, 0, and P—during a single day. The first and second houses to be shown will be shown in the morning; the third, fourth, and fifth houses to be shown will be shown in the afternoon; the sixth and seventh houses to be shown will be shown in the evening. The houses will be shown according to the following rules: J must be shown in the evening. K cannot be shown in the morning. L must be shown at some time after K is shown and at some time before M is shown.",
+    "question": "Which one of the following could be the order, from first through seventh, in which the realtor shows the houses?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_2",
+    "context": "A realtor will show a prospective buyer seven houses—J, K, L, M, N, 0, and P—during a single day. The first and second houses to be shown will be shown in the morning; the third, fourth, and fifth houses to be shown will be shown in the afternoon; the sixth and seventh houses to be shown will be shown in the evening. The houses will be shown according to the following rules: J must be shown in the evening. K cannot be shown in the morning. L must be shown at some time after K is shown and at some time before M is shown.",
+    "question": "Which one of the following is a pair of houses that CANNOT be shown consecutively in either order?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_3",
+    "context": "A realtor will show a prospective buyer seven houses—J, K, L, M, N, 0, and P—during a single day. The first and second houses to be shown will be shown in the morning; the third, fourth, and fifth houses to be shown will be shown in the afternoon; the sixth and seventh houses to be shown will be shown in the evening. The houses will be shown according to the following rules: J must be shown in the evening. K cannot be shown in the morning. L must be shown at some time after K is shown and at some time before M is shown.",
+    "question": "Which one of the following must be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_4",
+    "context": "A realtor will show a prospective buyer seven houses—J, K, L, M, N, 0, and P—during a single day. The first and second houses to be shown will be shown in the morning; the third, fourth, and fifth houses to be shown will be shown in the afternoon; the sixth and seventh houses to be shown will be shown in the evening. The houses will be shown according to the following rules: J must be shown in the evening. K cannot be shown in the morning. L must be shown at some time after K is shown and at some time before M is shown.",
+    "question": "Which one of the following could be true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_5",
+    "context": "A realtor will show a prospective buyer seven houses—J, K, L, M, N, 0, and P—during a single day. The first and second houses to be shown will be shown in the morning; the third, fourth, and fifth houses to be shown will be shown in the afternoon; the sixth and seventh houses to be shown will be shown in the evening. The houses will be shown according to the following rules: J must be shown in the evening. K cannot be shown in the morning. L must be shown at some time after K is shown and at some time before M is shown.",
+    "question": "If P is shown in the afternoon, which one of the following must be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_6",
+    "context": "Exactly five witnesses—Franco, Garcia, Hong, Iturbe, and Jackson—are to be scheduled to testify at a hearing that is to take exactly three days of one week—Monday, Tuesday, and Wednesday. Each witness testifies on exactly one day of the hearing. The schedule must meet the following conditions: Franco does not testify on the same day that Garcia testifies. Iturbe testifies on Wednesday. Exactly two witnesses testify on Tuesday. Hong does not testify on Monday. At least one witness testifies on Monday.",
+    "question": "Which one of the following is an acceptable schedule of witnesses?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_7",
+    "context": "Exactly five witnesses—Franco, Garcia, Hong, Iturbe, and Jackson—are to be scheduled to testify at a hearing that is to take exactly three days of one week—Monday, Tuesday, and Wednesday. Each witness testifies on exactly one day of the hearing. The schedule must meet the following conditions: Franco does not testify on the same day that Garcia testifies. Iturbe testifies on Wednesday. Exactly two witnesses testify on Tuesday. Hong does not testify on Monday. At least one witness testifies on Monday.",
+    "question": "Which one of the following CANNOT be true of the schedule?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_8",
+    "context": "Exactly five witnesses—Franco, Garcia, Hong, Iturbe, and Jackson—are to be scheduled to testify at a hearing that is to take exactly three days of one week—Monday, Tuesday, and Wednesday. Each witness testifies on exactly one day of the hearing. The schedule must meet the following conditions: Franco does not testify on the same day that Garcia testifies. Iturbe testifies on Wednesday. Exactly two witnesses testify on Tuesday. Hong does not testify on Monday. At least one witness testifies on Monday.",
+    "question": "If Jackson is scheduled to testify on Wednesday, which one of the following must be true of the schedule?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_9",
+    "context": "Exactly five witnesses—Franco, Garcia, Hong, Iturbe, and Jackson—are to be scheduled to testify at a hearing that is to take exactly three days of one week—Monday, Tuesday, and Wednesday. Each witness testifies on exactly one day of the hearing. The schedule must meet the following conditions: Franco does not testify on the same day that Garcia testifies. Iturbe testifies on Wednesday. Exactly two witnesses testify on Tuesday. Hong does not testify on Monday. At least one witness testifies on Monday.",
+    "question": "If Jackson is the only witness scheduled to testify on Monday, which one of the following must be true of the schedule?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_10",
+    "context": "Exactly five witnesses—Franco, Garcia, Hong, Iturbe, and Jackson—are to be scheduled to testify at a hearing that is to take exactly three days of one week—Monday, Tuesday, and Wednesday. Each witness testifies on exactly one day of the hearing. The schedule must meet the following conditions: Franco does not testify on the same day that Garcia testifies. Iturbe testifies on Wednesday. Exactly two witnesses testify on Tuesday. Hong does not testify on Monday. At least one witness testifies on Monday.",
+    "question": "If Franco is scheduled to testify on the same day as Hong, which one of the following must be true of the schedule?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_11",
+    "context": "A maintenance company that takes service requests from three clients—Image, Solide, and Truvest—plans to set targets for its average service response times. Service targets will be set at 3 days, 2 days, or 1 day. Two service targets are set for each client—one for requests received through the maintenance company's website and one for requests received by voicemail. The six targets are set according to the following conditions: None of the clients can have a website target that is longer than its voicemail target. Image's voicemail target must be shorter than the other clients' voicemail targets. Solide's website target must be shorter than Truvest's website target.",
+    "question": "If none of the clients has a voicemail target of 3 days, then each of the following must be true EXCEPT:",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_12",
+    "context": "A maintenance company that takes service requests from three clients—Image, Solide, and Truvest—plans to set targets for its average service response times. Service targets will be set at 3 days, 2 days, or 1 day. Two service targets are set for each client—one for requests received through the maintenance company's website and one for requests received by voicemail. The six targets are set according to the following conditions: None of the clients can have a website target that is longer than its voicemail target. Image's voicemail target must be shorter than the other clients' voicemail targets. Solide's website target must be shorter than Truvest's website target.",
+    "question": "If Truvest's website target is shorter than its voicemail target, which one of the following must be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_13",
+    "context": "A maintenance company that takes service requests from three clients—Image, Solide, and Truvest—plans to set targets for its average service response times. Service targets will be set at 3 days, 2 days, or 1 day. Two service targets are set for each client—one for requests received through the maintenance company's website and one for requests received by voicemail. The six targets are set according to the following conditions: None of the clients can have a website target that is longer than its voicemail target. Image's voicemail target must be shorter than the other clients' voicemail targets. Solide's website target must be shorter than Truvest's website target.",
+    "question": "If Image's website target is 2 days, which one of the following targets must also be 2 days?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_14",
+    "context": "A maintenance company that takes service requests from three clients—Image, Solide, and Truvest—plans to set targets for its average service response times. Service targets will be set at 3 days, 2 days, or 1 day. Two service targets are set for each client—one for requests received through the maintenance company's website and one for requests received by voicemail. The six targets are set according to the following conditions: None of the clients can have a website target that is longer than its voicemail target. Image's voicemail target must be shorter than the other clients' voicemail targets. Solide's website target must be shorter than Truvest's website target.",
+    "question": "If Solide's voicemail target is shorter than Truvest's website target, which one of the following targets could be 2 days?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_15",
+    "context": "A maintenance company that takes service requests from three clients—Image, Solide, and Truvest—plans to set targets for its average service response times. Service targets will be set at 3 days, 2 days, or 1 day. Two service targets are set for each client—one for requests received through the maintenance company's website and one for requests received by voicemail. The six targets are set according to the following conditions: None of the clients can have a website target that is longer than its voicemail target. Image's voicemail target must be shorter than the other clients' voicemail targets. Solide's website target must be shorter than Truvest's website target.",
+    "question": "Which one of the following targets CANNOT be set for more than one of the clients?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_16",
+    "context": "A maintenance company that takes service requests from three clients—Image, Solide, and Truvest—plans to set targets for its average service response times. Service targets will be set at 3 days, 2 days, or 1 day. Two service targets are set for each client—one for requests received through the maintenance company's website and one for requests received by voicemail. The six targets are set according to the following conditions: None of the clients can have a website target that is longer than its voicemail target. Image's voicemail target must be shorter than the other clients' voicemail targets. Solide's website target must be shorter than Truvest's website target.",
+    "question": "If none of the clients has a website target of 2 days, which one of the following could be true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_17",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "Which one of the following is an acceptable order for editing the articles, from first through seventh?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_18",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "If Y is fourth, which one of the following must be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_19",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "If G is fourth, which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_20",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "Which one of the following could be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_21",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "If J is third, which one of the following could be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_22",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "In the order in which the articles are edited, S could be in any of the following positions EXCEPT:",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_23",
+    "context": "An editor will edit seven articles, one at a time. Three of the articles—G, H, and J—cover finance; three other articles—Q, R, and S—cover nutrition; and the remaining article, Y, covers wildlife. The order in which the articles are edited is subject to the following conditions: Consecutive articles cannot cover the same topic as each other. S can be earlier than Q only if Q is third. S must be earlier than Y. J must be earlier than G, and G must be earlier than R.",
+    "question": "The order in which the articles are edited is fully determined if which one of the following is true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_1",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "Which one of the following CANNOT be the band that performs in slot five?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_2",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "If Zircon performs in an earlier slot than Yardsign, which one of the following is the earliest slot in which Wellspring could perform?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_3",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "If Veqemite performs in slot three, which one of the following must be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_4",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "If Zircon performs immediately before Wellspring, which one of the following must be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_5",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "Which one of the following is a complete and accurate list of bands any one of which could be the band that performs in slot one?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_6",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "If Wellspring performs immediately before Xpert, which one of the following could be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_7",
+    "context": "A concert promoter is filling the six slots at a benefit concert. The slots, from earliest to latest, are numbered slot one through slot six. The slots will be filled by six bands—Uneasy, Vegemite, Wellspring, Xpert, Yardsign, and Zircon. Each band will perform in just one slot. The order must meet the following constraints: Vegemite performs in an earlier slot than Zircon. Wellspring and Zircon each perform in an earlier slot than Xpert. Uneasy performs in one of the last three slots. Yardsign performs in one of the first three slots.",
+    "question": "Which one of the following, if substituted for the constraint that Wellspring and Zircon each perform in an earlier slot than Xpert, would have the same effect in determining the order in which the bands perform?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_8",
+    "context": "A corporate manager is selecting employees for a research team. The team will include at least four employees, all from among the following eight: Myers, Ortega, Paine, Schmidt, Thomson, Wong, Yoder, and Zayre. The selection is constrained by the following conditions: If Myers is on the team, neither Ortega nor Paine can be. If Schmidt is on the team, both Paine and Thomson must also be. If Wong is on the team, both Myers and Yoder must also be.",
+    "question": "Which one of the following is a possible selection of employees for the team?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_9",
+    "context": "A corporate manager is selecting employees for a research team. The team will include at least four employees, all from among the following eight: Myers, Ortega, Paine, Schmidt, Thomson, Wong, Yoder, and Zayre. The selection is constrained by the following conditions: If Myers is on the team, neither Ortega nor Paine can be. If Schmidt is on the team, both Paine and Thomson must also be. If Wong is on the team, both Myers and Yoder must also be.",
+    "question": "Which one of the following is a pair of employees who CANNOT be on the team together?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_10",
+    "context": "A corporate manager is selecting employees for a research team. The team will include at least four employees, all from among the following eight: Myers, Ortega, Paine, Schmidt, Thomson, Wong, Yoder, and Zayre. The selection is constrained by the following conditions: If Myers is on the team, neither Ortega nor Paine can be. If Schmidt is on the team, both Paine and Thomson must also be. If Wong is on the team, both Myers and Yoder must also be.",
+    "question": "If Yoder is not on the team, then any of the following could be on the team EXCEPT:",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_11",
+    "context": "A corporate manager is selecting employees for a research team. The team will include at least four employees, all from among the following eight: Myers, Ortega, Paine, Schmidt, Thomson, Wong, Yoder, and Zayre. The selection is constrained by the following conditions: If Myers is on the team, neither Ortega nor Paine can be. If Schmidt is on the team, both Paine and Thomson must also be. If Wong is on the team, both Myers and Yoder must also be.",
+    "question": "If Paine is not on the team, which one of the following could be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_12",
+    "context": "A corporate manager is selecting employees for a research team. The team will include at least four employees, all from among the following eight: Myers, Ortega, Paine, Schmidt, Thomson, Wong, Yoder, and Zayre. The selection is constrained by the following conditions: If Myers is on the team, neither Ortega nor Paine can be. If Schmidt is on the team, both Paine and Thomson must also be. If Wong is on the team, both Myers and Yoder must also be.",
+    "question": "Which one of the following is a pair of employees at least one of whom must be on the team?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_13",
+    "context": "Exactly five movies are showing at the repertory theater this evening: a horror film, a mystery, a romance, a sci-fi film, and a western. Each movie is shown exactly once, on one of the theater's three screens: screens 1, 2, and 3. Screens 1 and 2 show two movies each, one beginning at 7 P.M. and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M. The following conditions apply to this evening's schedule: The western begins at some time before the horror film does. The sci-fi film is not shown on screen 3. The romance is not shown on screen 2. The horror film and the mystery are shown on different screens.",
+    "question": "Which one of the following is an acceptable schedule of the movies for this evening?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_14",
+    "context": "Exactly five movies are showing at the repertory theater this evening: a horror film, a mystery, a romance, a sci-fi film, and a western. Each movie is shown exactly once, on one of the theater's three screens: screens 1, 2, and 3. Screens 1 and 2 show two movies each, one beginning at 7 P.M. and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M. The following conditions apply to this evening's schedule: The western begins at some time before the horror film does. The sci-fi film is not shown on screen 3. The romance is not shown on screen 2. The horror film and the mystery are shown on different screens.",
+    "question": "Which one of the following CANNOT be an accurate list of the movies scheduled to be shown on screen 2 this evening, listing the 7 P.M. movie first?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_15",
+    "context": "Exactly five movies are showing at the repertory theater this evening: a horror film, a mystery, a romance, a sci-fi film, and a western. Each movie is shown exactly once, on one of the theater's three screens: screens 1, 2, and 3. Screens 1 and 2 show two movies each, one beginning at 7 P.M. and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M. The following conditions apply to this evening's schedule: The western begins at some time before the horror film does. The sci-fi film is not shown on screen 3. The romance is not shown on screen 2. The horror film and the mystery are shown on different screens.",
+    "question": "If the western and the sci-fi film are scheduled to be shown on the same screen, then which one of the following could be true of this evening's schedule?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_16",
+    "context": "Exactly five movies are showing at the repertory theater this evening: a horror film, a mystery, a romance, a sci-fi film, and a western. Each movie is shown exactly once, on one of the theater's three screens: screens 1, 2, and 3. Screens 1 and 2 show two movies each, one beginning at 7 P.M. and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M. The following conditions apply to this evening's schedule: The western begins at some time before the horror film does. The sci-fi film is not shown on screen 3. The romance is not shown on screen 2. The horror film and the mystery are shown on different screens.",
+    "question": "If the romance is scheduled to begin before the western does, then which one of the following must be true of this evening's schedule?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_17",
+    "context": "Exactly five movies are showing at the repertory theater this evening: a horror film, a mystery, a romance, a sci-fi film, and a western. Each movie is shown exactly once, on one of the theater's three screens: screens 1, 2, and 3. Screens 1 and 2 show two movies each, one beginning at 7 P.M. and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M. The following conditions apply to this evening's schedule: The western begins at some time before the horror film does. The sci-fi film is not shown on screen 3. The romance is not shown on screen 2. The horror film and the mystery are shown on different screens.",
+    "question": "Which one of the following CANNOT be an accurate list of the movies scheduled to be shown on screen 1 this evening, listing the 7 P.M. movie first?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_18",
+    "context": "Exactly five movies are showing at the repertory theater this evening: a horror film, a mystery, a romance, a sci-fi film, and a western. Each movie is shown exactly once, on one of the theater's three screens: screens 1, 2, and 3. Screens 1 and 2 show two movies each, one beginning at 7 P.M. and the other at 9 P.M.; screen 3 shows exactly one movie, at 8 P.M. The following conditions apply to this evening's schedule: The western begins at some time before the horror film does. The sci-fi film is not shown on screen 3. The romance is not shown on screen 2. The horror film and the mystery are shown on different screens.",
+    "question": "If the sci-fi film and the romance are to be shown on the same screen, then which one of the following must be true of this evening's schedule?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_19",
+    "context": "A naturalist will give five lectures, each on a different type of bird: oystercatchers, petrels, rails, sandpipers, or terns. The lectures must be given in either Gladwyn Hall or Howard Auditorium, in an order that meets the following conditions: The first lecture is in Gladwyn Hall. The fourth lecture is in Howard Auditorium. Exactly three of the lectures are in Gladwyn Hall. The lecture on sandpipers is in Howard Auditorium and is given earlier than the lecture on oystercatchers. The lecture on terns is given earlier than the lecture on petrels, which is in Gladwyn Hall.",
+    "question": "Which one of the following is an acceptable order for the lectures, from first to fifth?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_20",
+    "context": "A naturalist will give five lectures, each on a different type of bird: oystercatchers, petrels, rails, sandpipers, or terns. The lectures must be given in either Gladwyn Hall or Howard Auditorium, in an order that meets the following conditions: The first lecture is in Gladwyn Hall. The fourth lecture is in Howard Auditorium. Exactly three of the lectures are in Gladwyn Hall. The lecture on sandpipers is in Howard Auditorium and is given earlier than the lecture on oystercatchers. The lecture on terns is given earlier than the lecture on petrels, which is in Gladwyn Hall.",
+    "question": "Which one of the following must be false?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_21",
+    "context": "A naturalist will give five lectures, each on a different type of bird: oystercatchers, petrels, rails, sandpipers, or terns. The lectures must be given in either Gladwyn Hall or Howard Auditorium, in an order that meets the following conditions: The first lecture is in Gladwyn Hall. The fourth lecture is in Howard Auditorium. Exactly three of the lectures are in Gladwyn Hall. The lecture on sandpipers is in Howard Auditorium and is given earlier than the lecture on oystercatchers. The lecture on terns is given earlier than the lecture on petrels, which is in Gladwyn Hall.",
+    "question": "If the lecture on terns is given in Howard Auditorium, which one of the following could be true of the third lecture?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_22",
+    "context": "A naturalist will give five lectures, each on a different type of bird: oystercatchers, petrels, rails, sandpipers, or terns. The lectures must be given in either Gladwyn Hall or Howard Auditorium, in an order that meets the following conditions: The first lecture is in Gladwyn Hall. The fourth lecture is in Howard Auditorium. Exactly three of the lectures are in Gladwyn Hall. The lecture on sandpipers is in Howard Auditorium and is given earlier than the lecture on oystercatchers. The lecture on terns is given earlier than the lecture on petrels, which is in Gladwyn Hall.",
+    "question": "Which one of the following could be true of the fifth lecture?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_23",
+    "context": "A naturalist will give five lectures, each on a different type of bird: oystercatchers, petrels, rails, sandpipers, or terns. The lectures must be given in either Gladwyn Hall or Howard Auditorium, in an order that meets the following conditions: The first lecture is in Gladwyn Hall. The fourth lecture is in Howard Auditorium. Exactly three of the lectures are in Gladwyn Hall. The lecture on sandpipers is in Howard Auditorium and is given earlier than the lecture on oystercatchers. The lecture on terns is given earlier than the lecture on petrels, which is in Gladwyn Hall.",
+    "question": "If the third lecture is on sandpipers, which one of the following could be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_1",
+    "context": "A concert is given by a six-member band—guitarist, keyboard player, percussionist, saxophonist, trumpeter, violinist. During the concert, each member performs exactly one solo. The following restrictions apply: The guitarist does not perform the fourth solo. The percussionist performs a solo at some time before the keyboard player does. The keyboard player performs a solo at some time after the violinist does and at some time before the guitarist does. The saxophonist performs a solo at some time after either the percussionist does or the trumpeter does, but not both.",
+    "question": "Which one of the following is an acceptable ordering of solos from first to last?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_2",
+    "context": "A concert is given by a six-member band—guitarist, keyboard player, percussionist, saxophonist, trumpeter, violinist. During the concert, each member performs exactly one solo. The following restrictions apply: The guitarist does not perform the fourth solo. The percussionist performs a solo at some time before the keyboard player does. The keyboard player performs a solo at some time after the violinist does and at some time before the guitarist does. The saxophonist performs a solo at some time after either the percussionist does or the trumpeter does, but not both.",
+    "question": "If the percussionist performs a solo at some time before the saxophonist does, then which one of the following must be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_3",
+    "context": "A concert is given by a six-member band—guitarist, keyboard player, percussionist, saxophonist, trumpeter, violinist. During the concert, each member performs exactly one solo. The following restrictions apply: The guitarist does not perform the fourth solo. The percussionist performs a solo at some time before the keyboard player does. The keyboard player performs a solo at some time after the violinist does and at some time before the guitarist does. The saxophonist performs a solo at some time after either the percussionist does or the trumpeter does, but not both.",
+    "question": "Each of the following must be false EXCEPT:",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_4",
+    "context": "A concert is given by a six-member band—guitarist, keyboard player, percussionist, saxophonist, trumpeter, violinist. During the concert, each member performs exactly one solo. The following restrictions apply: The guitarist does not perform the fourth solo. The percussionist performs a solo at some time before the keyboard player does. The keyboard player performs a solo at some time after the violinist does and at some time before the guitarist does. The saxophonist performs a solo at some time after either the percussionist does or the trumpeter does, but not both.",
+    "question": "Which one of the following CANNOT perform the third",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_5",
+    "context": "A concert is given by a six-member band—guitarist, keyboard player, percussionist, saxophonist, trumpeter, violinist. During the concert, each member performs exactly one solo. The following restrictions apply: The guitarist does not perform the fourth solo. The percussionist performs a solo at some time before the keyboard player does. The keyboard player performs a solo at some time after the violinist does and at some time before the guitarist does. The saxophonist performs a solo at some time after either the percussionist does or the trumpeter does, but not both.",
+    "question": "If the violinist performs the fourth solo, then each of the following must be true EXCEPT:",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_6",
+    "context": "Four art historians—Farley, Garcia, Holden, and Jiang—will give a series of four public lectures, each lecture on a different topic—lithographs, oil paintings, sculptures, and watercolors. The lectures will be given one at a time, with each art historian giving a lecture on a different one of the topics. The schedule of the lectures is subject to the following constraints: The oil paintings lecture and the watercolors lecture must both be earlier than the lithographs lecture. Farley's lecture must be earlier than the oil paintings lecture. Holden's lecture must be earlier than both Garcia's lecture and Jiang's lecture.",
+    "question": "Which one of the following is an acceptable ordering of the lectures, from first to fourth?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_7",
+    "context": "Four art historians—Farley, Garcia, Holden, and Jiang—will give a series of four public lectures, each lecture on a different topic—lithographs, oil paintings, sculptures, and watercolors. The lectures will be given one at a time, with each art historian giving a lecture on a different one of the topics. The schedule of the lectures is subject to the following constraints: The oil paintings lecture and the watercolors lecture must both be earlier than the lithographs lecture. Farley's lecture must be earlier than the oil paintings lecture. Holden's lecture must be earlier than both Garcia's lecture and Jiang's lecture.",
+    "question": "Which one of the following must be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_8",
+    "context": "Four art historians—Farley, Garcia, Holden, and Jiang—will give a series of four public lectures, each lecture on a different topic—lithographs, oil paintings, sculptures, and watercolors. The lectures will be given one at a time, with each art historian giving a lecture on a different one of the topics. The schedule of the lectures is subject to the following constraints: The oil paintings lecture and the watercolors lecture must both be earlier than the lithographs lecture. Farley's lecture must be earlier than the oil paintings lecture. Holden's lecture must be earlier than both Garcia's lecture and Jiang's lecture.",
+    "question": "If the watercolors lecture is third, which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_9",
+    "context": "Four art historians—Farley, Garcia, Holden, and Jiang—will give a series of four public lectures, each lecture on a different topic—lithographs, oil paintings, sculptures, and watercolors. The lectures will be given one at a time, with each art historian giving a lecture on a different one of the topics. The schedule of the lectures is subject to the following constraints: The oil paintings lecture and the watercolors lecture must both be earlier than the lithographs lecture. Farley's lecture must be earlier than the oil paintings lecture. Holden's lecture must be earlier than both Garcia's lecture and Jiang's lecture.",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_10",
+    "context": "Four art historians—Farley, Garcia, Holden, and Jiang—will give a series of four public lectures, each lecture on a different topic—lithographs, oil paintings, sculptures, and watercolors. The lectures will be given one at a time, with each art historian giving a lecture on a different one of the topics. The schedule of the lectures is subject to the following constraints: The oil paintings lecture and the watercolors lecture must both be earlier than the lithographs lecture. Farley's lecture must be earlier than the oil paintings lecture. Holden's lecture must be earlier than both Garcia's lecture and Jiang's lecture.",
+    "question": "If Garcia gives the sculptures lecture, which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_11",
+    "context": "Three rugs will be woven out of colored thread. Six colors of thread are available—forest, olive, peach, turquoise, white, and yellow—exactly five of which will be used to weave the rugs. Each color that is used will be used in only one of the rugs. The rugs are either solid—woven in a single color—or multicolored. The rugs must be woven according to the following rules: In any rug in which white is used, two other colors are also used. In any rug in which olive is used, peach is also used. Forest and turquoise are not used together in a rug. Peach and turquoise are not used together in a rug. Peach and yellow are not used together in a rug.",
+    "question": "Which one of the following could be the colors of the three rugs?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_12",
+    "context": "Three rugs will be woven out of colored thread. Six colors of thread are available—forest, olive, peach, turquoise, white, and yellow—exactly five of which will be used to weave the rugs. Each color that is used will be used in only one of the rugs. The rugs are either solid—woven in a single color—or multicolored. The rugs must be woven according to the following rules: In any rug in which white is used, two other colors are also used. In any rug in which olive is used, peach is also used. Forest and turquoise are not used together in a rug. Peach and turquoise are not used together in a rug. Peach and yellow are not used together in a rug.",
+    "question": "Which one of the following must be true?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_13",
+    "context": "Three rugs will be woven out of colored thread. Six colors of thread are available—forest, olive, peach, turquoise, white, and yellow—exactly five of which will be used to weave the rugs. Each color that is used will be used in only one of the rugs. The rugs are either solid—woven in a single color—or multicolored. The rugs must be woven according to the following rules: In any rug in which white is used, two other colors are also used. In any rug in which olive is used, peach is also used. Forest and turquoise are not used together in a rug. Peach and turquoise are not used together in a rug. Peach and yellow are not used together in a rug.",
+    "question": "If one of the rugs is solid peach, which one of the following must be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_14",
+    "context": "Three rugs will be woven out of colored thread. Six colors of thread are available—forest, olive, peach, turquoise, white, and yellow—exactly five of which will be used to weave the rugs. Each color that is used will be used in only one of the rugs. The rugs are either solid—woven in a single color—or multicolored. The rugs must be woven according to the following rules: In any rug in which white is used, two other colors are also used. In any rug in which olive is used, peach is also used. Forest and turquoise are not used together in a rug. Peach and turquoise are not used together in a rug. Peach and yellow are not used together in a rug.",
+    "question": "If there are exactly two solid rugs, then the colors of those two rugs CANNOT be",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_15",
+    "context": "Three rugs will be woven out of colored thread. Six colors of thread are available—forest, olive, peach, turquoise, white, and yellow—exactly five of which will be used to weave the rugs. Each color that is used will be used in only one of the rugs. The rugs are either solid—woven in a single color—or multicolored. The rugs must be woven according to the following rules: In any rug in which white is used, two other colors are also used. In any rug in which olive is used, peach is also used. Forest and turquoise are not used together in a rug. Peach and turquoise are not used together in a rug. Peach and yellow are not used together in a rug.",
+    "question": "If forest and peach are used together in a rug, which one of the following could be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_16",
+    "context": "Three rugs will be woven out of colored thread. Six colors of thread are available—forest, olive, peach, turquoise, white, and yellow—exactly five of which will be used to weave the rugs. Each color that is used will be used in only one of the rugs. The rugs are either solid—woven in a single color—or multicolored. The rugs must be woven according to the following rules: In any rug in which white is used, two other colors are also used. In any rug in which olive is used, peach is also used. Forest and turquoise are not used together in a rug. Peach and turquoise are not used together in a rug. Peach and yellow are not used together in a rug.",
+    "question": "If one of the rugs is solid yellow, then any of the following could be true EXCEPT:",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_17",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "Which one of the following is an acceptable assignment of photographers to the two graduation ceremonies?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_18",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "If Heideck is assigned to the same graduation ceremony as Lai, then which one of the following must be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_19",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "Which one of the following could be the complete assignment of photographers to the Silva University ceremony?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_20",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "Which one of the following is a complete and accurate list of all of the photographers who must be assigned?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_21",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "If exactly four of the photographers are assigned to the graduation ceremonies, then which one of the following must be assigned to the Silva University ceremony?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_22",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "Which one of the following CANNOT be the complete assignment of photographers to the Thorne University ceremony?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_23",
+    "context": "The manager of a photography business must assign at least two photographers to each of two graduation ceremonies—one at Silva University and the other at Thorne University. Exactly six photographers are available—Frost, Gonzalez, Heideck, Knutson, Lai, and Mays—but not all have to be assigned. No photographer can be assigned to both ceremonies. The following constraints apply: Frost must be assigned together with Heideck to one of the graduation ceremonies. If Lai and Mays are both assigned, it must be to different ceremonies. If Gonzalez is assigned to the Silva University ceremony, then Lai must be assigned to the Thorne University ceremony. If Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it.",
+    "question": "Which one of the following, if substituted for the constraint that if Knutson is not assigned to the Thorne University ceremony, then both Heideck and Mays must be assigned to it, would have the same effect in determining the assignment of photographers to the graduation ceremonies?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_1",
+    "context": "A detective is trying to determine the order in which a criminal recruited seven accomplices—Peters, Quinn, Rovero, Stanton, Tao, Villas, and White. In addition to discovering that the suspect recruited the accomplices one at a time, the detective has established the following: Stanton was recruited neither immediately before nor immediately after Tao. Quinn was recruited earlier than Rovero. Villas was recruited immediately before White. Peters was recruited fourth.",
+    "question": "Which one of the following could be the order in which the accomplices were recruited, from first to last?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_2",
+    "context": "A detective is trying to determine the order in which a criminal recruited seven accomplices—Peters, Quinn, Rovero, Stanton, Tao, Villas, and White. In addition to discovering that the suspect recruited the accomplices one at a time, the detective has established the following: Stanton was recruited neither immediately before nor immediately after Tao. Quinn was recruited earlier than Rovero. Villas was recruited immediately before White. Peters was recruited fourth.",
+    "question": "Which one of the following could be the list of the middle five accomplices, in the order in which they were recruited, from second to sixth?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_3",
+    "context": "A detective is trying to determine the order in which a criminal recruited seven accomplices—Peters, Quinn, Rovero, Stanton, Tao, Villas, and White. In addition to discovering that the suspect recruited the accomplices one at a time, the detective has established the following: Stanton was recruited neither immediately before nor immediately after Tao. Quinn was recruited earlier than Rovero. Villas was recruited immediately before White. Peters was recruited fourth.",
+    "question": "If Tao was recruited second, which one of the following could be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_4",
+    "context": "A detective is trying to determine the order in which a criminal recruited seven accomplices—Peters, Quinn, Rovero, Stanton, Tao, Villas, and White. In addition to discovering that the suspect recruited the accomplices one at a time, the detective has established the following: Stanton was recruited neither immediately before nor immediately after Tao. Quinn was recruited earlier than Rovero. Villas was recruited immediately before White. Peters was recruited fourth.",
+    "question": "f Quinn was recruited immediately before Rovero, then Stanton CANNOT have been recruited",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_5",
+    "context": "A detective is trying to determine the order in which a criminal recruited seven accomplices—Peters, Quinn, Rovero, Stanton, Tao, Villas, and White. In addition to discovering that the suspect recruited the accomplices one at a time, the detective has established the following: Stanton was recruited neither immediately before nor immediately after Tao. Quinn was recruited earlier than Rovero. Villas was recruited immediately before White. Peters was recruited fourth.",
+    "question": "If White was recruited earlier than Rovero and if Rovero was recruited earlier than Tao, then which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_6",
+    "context": "A detective is trying to determine the order in which a criminal recruited seven accomplices—Peters, Quinn, Rovero, Stanton, Tao, Villas, and White. In addition to discovering that the suspect recruited the accomplices one at a time, the detective has established the following: Stanton was recruited neither immediately before nor immediately after Tao. Quinn was recruited earlier than Rovero. Villas was recruited immediately before White. Peters was recruited fourth.",
+    "question": "If White was recruited immediately before Quinn, which one of the following must have been recruited sixth?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_7",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "which one of the following could be an acceptable selection of the photographs to appear?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_8",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "If both photographs in the Lifestyle section are by Hue, then which one of the following must be true of the six photographs?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_9",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "If one photograph in the Lifestyle section is by Gagnon and one is by Hue, then which one of the following must be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_10",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "Which one of the following could be true of the photographs by Fuentes appearing in tomorrows paper?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_11",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "If one photograph in the Lifestyle section is by Fuentes and one is by Hue, then which one of the following could be true?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_12",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "If both photographs in one of the three sections are by Gagnon, then which one of the following could be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_13",
+    "context": "In the Lifestyle, Metro, and Sports sections of tomorrow's newspaper, a total of six different photographs are to appear, exactly two photographs per section. Each of the available photographs was taken by one of three photographers: Fuentes, Gagnon, and Hue. Selection of the photographs is constrained by the following conditions: For each photographer, at least one but no more than three of that photographers photographs must appear. At least one photograph in the Lifestyle section must be by a photographer who has at least one photograph in the Metro section. The number of Hue's photographs in the Lifestyle section must be the same as the number of Fuentes photographs in the Sports section. None of Gagnon's photographs can be in the Sports section.",
+    "question": "If one photograph in the Metro section is by Fuentes and one is by Hue, then which one of the following could be true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_14",
+    "context": "Exactly five students—Grecia, Hakeem, Joe, Katya, and Louise—are to work at a campus art gallery during a special exhibit that runs for exactly five days, Monday through Friday. Each day is divided into two nonoverlapping shifts—first and second—with each student working exactly two shifts. Each shift is worked by exactly one of the students according to the following scheduling restrictions: No student works both shifts of any day. On two consecutive days, Louise works the second shift. On two nonconsecutive days, Grecia works the first shift. Katya works on Tuesday and Friday. Hakeem and Joe work on the same day as each other at least once. Grecia and Louise never work on the same day as each other.",
+    "question": "Which one of the following could be the list of the students who work the second shifts at the gallery, in order from Monday through Friday?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_15",
+    "context": "Exactly five students—Grecia, Hakeem, Joe, Katya, and Louise—are to work at a campus art gallery during a special exhibit that runs for exactly five days, Monday through Friday. Each day is divided into two nonoverlapping shifts—first and second—with each student working exactly two shifts. Each shift is worked by exactly one of the students according to the following scheduling restrictions: No student works both shifts of any day. On two consecutive days, Louise works the second shift. On two nonconsecutive days, Grecia works the first shift. Katya works on Tuesday and Friday. Hakeem and Joe work on the same day as each other at least once. Grecia and Louise never work on the same day as each other.",
+    "question": "Which one of the following must be true?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_16",
+    "context": "Exactly five students—Grecia, Hakeem, Joe, Katya, and Louise—are to work at a campus art gallery during a special exhibit that runs for exactly five days, Monday through Friday. Each day is divided into two nonoverlapping shifts—first and second—with each student working exactly two shifts. Each shift is worked by exactly one of the students according to the following scheduling restrictions: No student works both shifts of any day. On two consecutive days, Louise works the second shift. On two nonconsecutive days, Grecia works the first shift. Katya works on Tuesday and Friday. Hakeem and Joe work on the same day as each other at least once. Grecia and Louise never work on the same day as each other.",
+    "question": "If Hakeem works at the gallery on Wednesday, then Joe must work at the gallery on which one of the following pairs of days?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_17",
+    "context": "Exactly five students—Grecia, Hakeem, Joe, Katya, and Louise—are to work at a campus art gallery during a special exhibit that runs for exactly five days, Monday through Friday. Each day is divided into two nonoverlapping shifts—first and second—with each student working exactly two shifts. Each shift is worked by exactly one of the students according to the following scheduling restrictions: No student works both shifts of any day. On two consecutive days, Louise works the second shift. On two nonconsecutive days, Grecia works the first shift. Katya works on Tuesday and Friday. Hakeem and Joe work on the same day as each other at least once. Grecia and Louise never work on the same day as each other.",
+    "question": "If there is at least one day on which Grecia and Joe both work at the gallery, then which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_18",
+    "context": "Exactly five students—Grecia, Hakeem, Joe, Katya, and Louise—are to work at a campus art gallery during a special exhibit that runs for exactly five days, Monday through Friday. Each day is divided into two nonoverlapping shifts—first and second—with each student working exactly two shifts. Each shift is worked by exactly one of the students according to the following scheduling restrictions: No student works both shifts of any day. On two consecutive days, Louise works the second shift. On two nonconsecutive days, Grecia works the first shift. Katya works on Tuesday and Friday. Hakeem and Joe work on the same day as each other at least once. Grecia and Louise never work on the same day as each other.",
+    "question": "If Katya works the second shift on Tuesday at the gallery, then which one of the following could be true?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_19",
+    "context": "Exactly five students—Grecia, Hakeem, Joe, Katya, and Louise—are to work at a campus art gallery during a special exhibit that runs for exactly five days, Monday through Friday. Each day is divided into two nonoverlapping shifts—first and second—with each student working exactly two shifts. Each shift is worked by exactly one of the students according to the following scheduling restrictions: No student works both shifts of any day. On two consecutive days, Louise works the second shift. On two nonconsecutive days, Grecia works the first shift. Katya works on Tuesday and Friday. Hakeem and Joe work on the same day as each other at least once. Grecia and Louise never work on the same day as each other.",
+    "question": "Which one of the following is an acceptable schedule for the publication of the cookbooks?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_20",
+    "context": "A publisher is planning to publish six cookbooks—K, L, M, N, O, and P—over the course of the next year. Each cookbook will be published in one of two seasons—fall or spring—subject to the following conditions: M and P cannot be published in the same season as each other. K and N must be published in the same season as each other. If K is published in the fall, O must also be published in the fall. If M is published in the fall, N must be published in the spring",
+    "question": "If M is published in the fall, which one of the following is a pair of cookbooks that could both be published in the fall along with M?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_21",
+    "context": "A publisher is planning to publish six cookbooks—K, L, M, N, O, and P—over the course of the next year. Each cookbook will be published in one of two seasons—fall or spring—subject to the following conditions: M and P cannot be published in the same season as each other. K and N must be published in the same season as each other. If K is published in the fall, O must also be published in the fall. If M is published in the fall, N must be published in the spring",
+    "question": "If N is published in the fall, which one of the following could be true",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_22",
+    "context": "A publisher is planning to publish six cookbooks—K, L, M, N, O, and P—over the course of the next year. Each cookbook will be published in one of two seasons—fall or spring—subject to the following conditions: M and P cannot be published in the same season as each other. K and N must be published in the same season as each other. If K is published in the fall, O must also be published in the fall. If M is published in the fall, N must be published in the spring",
+    "question": "The schedule for the publication of the cookbooks is fully determined if which one of the following is true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_23",
+    "context": "A publisher is planning to publish six cookbooks—K, L, M, N, O, and P—over the course of the next year. Each cookbook will be published in one of two seasons—fall or spring—subject to the following conditions: M and P cannot be published in the same season as each other. K and N must be published in the same season as each other. If K is published in the fall, O must also be published in the fall. If M is published in the fall, N must be published in the spring",
+    "question": "Which one of the following, if substituted for the condition that if M is published in the fall, N must be published in the spring, would have the same effect in determining the schedule for the publication of the cookbooks?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_1",
+    "context": "Seven workers—Quinn, Ruiz, Smith, Taylor, Verma, Wells, and Xue—are being considered for a special project. Exactly three of the workers will be selected to be project members, and exactly one of these project members will be the project leader. The selection is subject to the following constraints: Quinn or Ruiz can be a project member only if leading the project. If Smith is a project member, Taylor must also be. If Wells is a project member, neither Ruiz nor Verma can be.",
+    "question": "Which one of the following is an acceptable selection for the project?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_2",
+    "context": "Seven workers—Quinn, Ruiz, Smith, Taylor, Verma, Wells, and Xue—are being considered for a special project. Exactly three of the workers will be selected to be project members, and exactly one of these project members will be the project leader. The selection is subject to the following constraints: Quinn or Ruiz can be a project member only if leading the project. If Smith is a project member, Taylor must also be. If Wells is a project member, neither Ruiz nor Verma can be.",
+    "question": "If Taylor is the project leader and Wells is a project member, then the third project member must be either",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_3",
+    "context": "Seven workers—Quinn, Ruiz, Smith, Taylor, Verma, Wells, and Xue—are being considered for a special project. Exactly three of the workers will be selected to be project members, and exactly one of these project members will be the project leader. The selection is subject to the following constraints: Quinn or Ruiz can be a project member only if leading the project. If Smith is a project member, Taylor must also be. If Wells is a project member, neither Ruiz nor Verma can be.",
+    "question": "Verma could be the project leader if which one of the following is true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_4",
+    "context": "Seven workers—Quinn, Ruiz, Smith, Taylor, Verma, Wells, and Xue—are being considered for a special project. Exactly three of the workers will be selected to be project members, and exactly one of these project members will be the project leader. The selection is subject to the following constraints: Quinn or Ruiz can be a project member only if leading the project. If Smith is a project member, Taylor must also be. If Wells is a project member, neither Ruiz nor Verma can be.",
+    "question": "If Taylor is not a project member, which one of the following workers must be a project member?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_5",
+    "context": "Seven workers—Quinn, Ruiz, Smith, Taylor, Verma, Wells, and Xue—are being considered for a special project. Exactly three of the workers will be selected to be project members, and exactly one of these project members will be the project leader. The selection is subject to the following constraints: Quinn or Ruiz can be a project member only if leading the project. If Smith is a project member, Taylor must also be. If Wells is a project member, neither Ruiz nor Verma can be.",
+    "question": "The selection for the project is completely determined if which one of the following is true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_6",
+    "context": "Four students will be assigned to a history project in which they will search archives from the years 1921, 1922, 1923, and 1924. Each of the four years will have exactly one student assigned to it. Six students—Louis, Mollie, Onyx, Ryan, Tiffany, and Yoshio—are available for this project. The following conditions apply: Only Louis or Tiffany can be assigned to 1923. If Mollie is assigned to the project, then she must be assigned to either 1921 or 1922. If Tiffany is assigned to the project, then Ryan must be assigned to the project. If Ryan is assigned to the project, then Onyx must be assigned to the year immediately prior to Ryan's.",
+    "question": "Which one of the following could be an accurate assignment of students, in order from the earliest year to the latest?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_7",
+    "context": "Four students will be assigned to a history project in which they will search archives from the years 1921, 1922, 1923, and 1924. Each of the four years will have exactly one student assigned to it. Six students—Louis, Mollie, Onyx, Ryan, Tiffany, and Yoshio—are available for this project. The following conditions apply: Only Louis or Tiffany can be assigned to 1923. If Mollie is assigned to the project, then she must be assigned to either 1921 or 1922. If Tiffany is assigned to the project, then Ryan must be assigned to the project. If Ryan is assigned to the project, then Onyx must be assigned to the year immediately prior to Ryan's.",
+    "question": "Mollie must be assigned to 1922 if which one of the following is true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_8",
+    "context": "Four students will be assigned to a history project in which they will search archives from the years 1921, 1922, 1923, and 1924. Each of the four years will have exactly one student assigned to it. Six students—Louis, Mollie, Onyx, Ryan, Tiffany, and Yoshio—are available for this project. The following conditions apply: Only Louis or Tiffany can be assigned to 1923. If Mollie is assigned to the project, then she must be assigned to either 1921 or 1922. If Tiffany is assigned to the project, then Ryan must be assigned to the project. If Ryan is assigned to the project, then Onyx must be assigned to the year immediately prior to Ryan's.",
+    "question": "If both Ryan and Yoshio are assigned to the project, which one of the following could be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_9",
+    "context": "Four students will be assigned to a history project in which they will search archives from the years 1921, 1922, 1923, and 1924. Each of the four years will have exactly one student assigned to it. Six students—Louis, Mollie, Onyx, Ryan, Tiffany, and Yoshio—are available for this project. The following conditions apply: Only Louis or Tiffany can be assigned to 1923. If Mollie is assigned to the project, then she must be assigned to either 1921 or 1922. If Tiffany is assigned to the project, then Ryan must be assigned to the project. If Ryan is assigned to the project, then Onyx must be assigned to the year immediately prior to Ryan's.",
+    "question": "How many of the students are there who could be the one assigned to 1921?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_10",
+    "context": "Four students will be assigned to a history project in which they will search archives from the years 1921, 1922, 1923, and 1924. Each of the four years will have exactly one student assigned to it. Six students—Louis, Mollie, Onyx, Ryan, Tiffany, and Yoshio—are available for this project. The following conditions apply: Only Louis or Tiffany can be assigned to 1923. If Mollie is assigned to the project, then she must be assigned to either 1921 or 1922. If Tiffany is assigned to the project, then Ryan must be assigned to the project. If Ryan is assigned to the project, then Onyx must be assigned to the year immediately prior to Ryan's.",
+    "question": "If Yoshio is not assigned to the project, which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_11",
+    "context": "Four students will be assigned to a history project in which they will search archives from the years 1921, 1922, 1923, and 1924. Each of the four years will have exactly one student assigned to it. Six students—Louis, Mollie, Onyx, Ryan, Tiffany, and Yoshio—are available for this project. The following conditions apply: Only Louis or Tiffany can be assigned to 1923. If Mollie is assigned to the project, then she must be assigned to either 1921 or 1922. If Tiffany is assigned to the project, then Ryan must be assigned to the project. If Ryan is assigned to the project, then Onyx must be assigned to the year immediately prior to Ryan's.",
+    "question": "Which one of the following students CANNOT be assigned to 1922?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_12",
+    "context": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.",
+    "question": "Which one of the following could be an accurate list of the six antiques, in the order in which they are auctioned, from June 1st through June 6th?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_13",
+    "context": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.",
+    "question": "Which one of the following could be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_14",
+    "context": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.",
+    "question": "If the table is auctioned on a date that is later than both the date on which the mirror is auctioned and the date on which the vase is auctioned, then which one of the following could be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_15",
+    "context": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.",
+    "question": "Which one of the following CANNOT be the antique auctioned on the day immediately preceding the day on which the vase is auctioned?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_16",
+    "context": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.",
+    "question": "Which one of the following could be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_17",
+    "context": "During the weeklong grand opening of a new antique shop, the antique dealer will auction exactly one antique per day for six consecutive days—June 1st through June 6th. The antiques to be auctioned are: a harmonica, a lamp, a mirror, a sundial, a table, and a vase. The following conditions apply: The sundial is not auctioned on June 1st. If the harmonica is auctioned on an earlier date than the lamp, then the mirror is also auctioned on an earlier date than the lamp. The sundial is auctioned on an earlier date than the mirror and also on an earlier date than the vase. The table is auctioned on an earlier date than the harmonica or on an earlier date than the vase, but not both.",
+    "question": "Which one of the following could be true?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_18",
+    "context": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Trillo, Waite, Yoshida, and Zinn. Kammer's audition and Lugo's audition will be recorded; the other four will not be. The six auditions are to take place one after the other on a single day, in accordance with the following conditions: The fourth audition cannot be recorded. The fifth audition must be recorded. Waite's audition must take place earlier than the two recorded auditions. Kammer's audition must take place earlier than Trillo's audition. Zinn's audition must take place earlier than Yoshida's audition.",
+    "question": "Which one of the following could be the order of the auditions, from first to last?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_19",
+    "context": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Trillo, Waite, Yoshida, and Zinn. Kammer's audition and Lugo's audition will be recorded; the other four will not be. The six auditions are to take place one after the other on a single day, in accordance with the following conditions: The fourth audition cannot be recorded. The fifth audition must be recorded. Waite's audition must take place earlier than the two recorded auditions. Kammer's audition must take place earlier than Trillo's audition. Zinn's audition must take place earlier than Yoshida's audition.",
+    "question": "Which one of the following CANNOT be the second audition?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_20",
+    "context": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Trillo, Waite, Yoshida, and Zinn. Kammer's audition and Lugo's audition will be recorded; the other four will not be. The six auditions are to take place one after the other on a single day, in accordance with the following conditions: The fourth audition cannot be recorded. The fifth audition must be recorded. Waite's audition must take place earlier than the two recorded auditions. Kammer's audition must take place earlier than Trillo's audition. Zinn's audition must take place earlier than Yoshida's audition.",
+    "question": "Which one of the following could be the sixth audition?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_21",
+    "context": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Trillo, Waite, Yoshida, and Zinn. Kammer's audition and Lugo's audition will be recorded; the other four will not be. The six auditions are to take place one after the other on a single day, in accordance with the following conditions: The fourth audition cannot be recorded. The fifth audition must be recorded. Waite's audition must take place earlier than the two recorded auditions. Kammer's audition must take place earlier than Trillo's audition. Zinn's audition must take place earlier than Yoshida's audition.",
+    "question": "If Kammer's audition is immediately before Yoshida's, which one of the following could be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_22",
+    "context": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Trillo, Waite, Yoshida, and Zinn. Kammer's audition and Lugo's audition will be recorded; the other four will not be. The six auditions are to take place one after the other on a single day, in accordance with the following conditions: The fourth audition cannot be recorded. The fifth audition must be recorded. Waite's audition must take place earlier than the two recorded auditions. Kammer's audition must take place earlier than Trillo's audition. Zinn's audition must take place earlier than Yoshida's audition.",
+    "question": "Yoshida's audition could be",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_23",
+    "context": "A chorus director is planning to audition exactly six singers: Kammer, Lugo, Trillo, Waite, Yoshida, and Zinn. Kammer's audition and Lugo's audition will be recorded; the other four will not be. The six auditions are to take place one after the other on a single day, in accordance with the following conditions: The fourth audition cannot be recorded. The fifth audition must be recorded. Waite's audition must take place earlier than the two recorded auditions. Kammer's audition must take place earlier than Trillo's audition. Zinn's audition must take place earlier than Yoshida's audition.",
+    "question": "Which one of the following, if substituted for the condition that Waite's audition must take place earlier than the two recorded auditions, would have the same effect in determining the order of the auditions?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_1",
+    "context": "A teacher will assign each of five students—Juana, Kelly, Lateefah, Mei, and Olga—to exactly one of two research teams, the green team and the red team. One team will have two members, and the other will have three members. One member of each team will be designated as facilitator. The assignment must satisfy the following conditions: Juana is assigned to a different team than Olga is. Lateefah is assigned to the green team. Kelly is not a facilitator. Olga is a facilitator.",
+    "question": "Which one of the following could be an accurate listing of the members and facilitators of the two research teams?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_2",
+    "context": "A teacher will assign each of five students—Juana, Kelly, Lateefah, Mei, and Olga—to exactly one of two research teams, the green team and the red team. One team will have two members, and the other will have three members. One member of each team will be designated as facilitator. The assignment must satisfy the following conditions: Juana is assigned to a different team than Olga is. Lateefah is assigned to the green team. Kelly is not a facilitator. Olga is a facilitator.",
+    "question": "Which one of the following must be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_3",
+    "context": "A teacher will assign each of five students—Juana, Kelly, Lateefah, Mei, and Olga—to exactly one of two research teams, the green team and the red team. One team will have two members, and the other will have three members. One member of each team will be designated as facilitator. The assignment must satisfy the following conditions: Juana is assigned to a different team than Olga is. Lateefah is assigned to the green team. Kelly is not a facilitator. Olga is a facilitator.",
+    "question": "Which one of the following must be false?",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_4",
+    "context": "A teacher will assign each of five students—Juana, Kelly, Lateefah, Mei, and Olga—to exactly one of two research teams, the green team and the red team. One team will have two members, and the other will have three members. One member of each team will be designated as facilitator. The assignment must satisfy the following conditions: Juana is assigned to a different team than Olga is. Lateefah is assigned to the green team. Kelly is not a facilitator. Olga is a facilitator.",
+    "question": "If Lateefah is a facilitator, then which one of the following could be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_5",
+    "context": "A teacher will assign each of five students—Juana, Kelly, Lateefah, Mei, and Olga—to exactly one of two research teams, the green team and the red team. One team will have two members, and the other will have three members. One member of each team will be designated as facilitator. The assignment must satisfy the following conditions: Juana is assigned to a different team than Olga is. Lateefah is assigned to the green team. Kelly is not a facilitator. Olga is a facilitator.",
+    "question": "If Mei is assigned to the green team, then which one of the following must be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_6",
+    "context": "An author is planning to write a mystery novel consisting of seven chapters, chapter 1 through chapter 7. Each of seven different clues—R, S, T, U, W, X, and Z—is to be mentioned exactly once, one clue per chapter. The order in which the clues are mentioned is subject to the following constraints: T cannot be mentioned in chapter 1. T must be mentioned before W, and there must be exactly two chapters separating the mention of T from the mention of W. S and Z cannot be mentioned in adjacent chapters. W and X cannot be mentioned in adjacent chapters. U and X must be mentioned in adjacent chapters.",
+    "question": "Which one of the following could be the order in which the clues are mentioned, from the first chapter through the seventh?",
+    "answer": "C",
+    "flag": "execution error",
+    "predicted_answer": "D"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_7",
+    "context": "An author is planning to write a mystery novel consisting of seven chapters, chapter 1 through chapter 7. Each of seven different clues—R, S, T, U, W, X, and Z—is to be mentioned exactly once, one clue per chapter. The order in which the clues are mentioned is subject to the following constraints: T cannot be mentioned in chapter 1. T must be mentioned before W, and there must be exactly two chapters separating the mention of T from the mention of W. S and Z cannot be mentioned in adjacent chapters. W and X cannot be mentioned in adjacent chapters. U and X must be mentioned in adjacent chapters.",
+    "question": "If X is mentioned in chapter 1, which one of the following could be true?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_8",
+    "context": "An author is planning to write a mystery novel consisting of seven chapters, chapter 1 through chapter 7. Each of seven different clues—R, S, T, U, W, X, and Z—is to be mentioned exactly once, one clue per chapter. The order in which the clues are mentioned is subject to the following constraints: T cannot be mentioned in chapter 1. T must be mentioned before W, and there must be exactly two chapters separating the mention of T from the mention of W. S and Z cannot be mentioned in adjacent chapters. W and X cannot be mentioned in adjacent chapters. U and X must be mentioned in adjacent chapters.",
+    "question": "If U is mentioned in chapter 3, which one of the following could be true?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_9",
+    "context": "An author is planning to write a mystery novel consisting of seven chapters, chapter 1 through chapter 7. Each of seven different clues—R, S, T, U, W, X, and Z—is to be mentioned exactly once, one clue per chapter. The order in which the clues are mentioned is subject to the following constraints: T cannot be mentioned in chapter 1. T must be mentioned before W, and there must be exactly two chapters separating the mention of T from the mention of W. S and Z cannot be mentioned in adjacent chapters. W and X cannot be mentioned in adjacent chapters. U and X must be mentioned in adjacent chapters.",
+    "question": "If Z is mentioned in chapter 7, which one of the following could be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_10",
+    "context": "An author is planning to write a mystery novel consisting of seven chapters, chapter 1 through chapter 7. Each of seven different clues—R, S, T, U, W, X, and Z—is to be mentioned exactly once, one clue per chapter. The order in which the clues are mentioned is subject to the following constraints: T cannot be mentioned in chapter 1. T must be mentioned before W, and there must be exactly two chapters separating the mention of T from the mention of W. S and Z cannot be mentioned in adjacent chapters. W and X cannot be mentioned in adjacent chapters. U and X must be mentioned in adjacent chapters.",
+    "question": "Which one of the following could be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_11",
+    "context": "An author is planning to write a mystery novel consisting of seven chapters, chapter 1 through chapter 7. Each of seven different clues—R, S, T, U, W, X, and Z—is to be mentioned exactly once, one clue per chapter. The order in which the clues are mentioned is subject to the following constraints: T cannot be mentioned in chapter 1. T must be mentioned before W, and there must be exactly two chapters separating the mention of T from the mention of W. S and Z cannot be mentioned in adjacent chapters. W and X cannot be mentioned in adjacent chapters. U and X must be mentioned in adjacent chapters.",
+    "question": "Which one of the following, if substituted for the constraint that T cannot be mentioned in chapter 1, would have the same effect in determining the order in which the clues are mentioned?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_12",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "Which one of the following could be an accurate list of the paintings displayed in the lower position on walls 1 through 4, listed in that order?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_13",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "If Isaacs's watercolor is displayed on wall 2 and Franz's oil is displayed on wall 3, which one of the following must be displayed on wall 1?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_14",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "If Hidalgo's oil is displayed on wall 2, which one of the following could also be displayed on wall 2?",
+    "answer": "E",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_15",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "If Greene's oil is displayed on the same wall as Franz's watercolor, which one of the following must be true?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_16",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "If Franz's oil is displayed on wall 1, which one of the following could be true?",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_17",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "Which one of the following could be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": "E"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_18",
+    "context": "At an upcoming exhibition, four art students—Franz, Greene, Hidalgo, and Isaacs—will each display exactly two paintings—an oil and a watercolor. Exactly two paintings will be displayed on each of the walls of the exhibition room—walls 1, 2, 3, and 4—with one painting in the upper position and one in the lower position. The following conditions will apply: No wall has only watercolors displayed on it. No wall has the work of only one student displayed on it. No wall has both a painting by Franz and a painting by Isaacs displayed on it. Greene's watercolor is displayed in the upper position of the wall on which Franz's oil is displayed. Isaacs's oil is displayed in the lower position of wall 4.",
+    "question": "Which one of the following CANNOT be true?",
+    "answer": "D",
+    "flag": "execution error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_19",
+    "context": "Three real estate companies—RealProp, Southco, and Trustcorp—are considering trading buildings with one another. Each building they own is categorized as either class 1, class 2, or class 3, depending on its approximate value: RealProp owns the Garza Tower (class 1), the Yates House (class 3), and the Zimmer House (class 3). Southco owns the Flores Tower (class 1) and the Lynch Building (class 2). Trustcorp owns the King Building, the Meyer Building, and the Ortiz Building, all of which are class 2. Each trade must be of exactly one of the following three kinds: Trading one building for one other building of the same class Trading one class 1 building for two class 2 buildings Trading one class 2 building for two class 3 buildings",
+    "question": "Which one of the following could be the buildings owned by the three companies after only one trade is made?",
+    "answer": "C",
+    "flag": "parsing error",
+    "predicted_answer": "C"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_20",
+    "context": "Three real estate companies—RealProp, Southco, and Trustcorp—are considering trading buildings with one another. Each building they own is categorized as either class 1, class 2, or class 3, depending on its approximate value: RealProp owns the Garza Tower (class 1), the Yates House (class 3), and the Zimmer House (class 3). Southco owns the Flores Tower (class 1) and the Lynch Building (class 2). Trustcorp owns the King Building, the Meyer Building, and the Ortiz Building, all of which are class 2. Each trade must be of exactly one of the following three kinds: Trading one building for one other building of the same class Trading one class 1 building for two class 2 buildings Trading one class 2 building for two class 3 buildings",
+    "question": "Which one of the following CANNOT be true, no matter how many trades are made?",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_21",
+    "context": "Three real estate companies—RealProp, Southco, and Trustcorp—are considering trading buildings with one another. Each building they own is categorized as either class 1, class 2, or class 3, depending on its approximate value: RealProp owns the Garza Tower (class 1), the Yates House (class 3), and the Zimmer House (class 3). Southco owns the Flores Tower (class 1) and the Lynch Building (class 2). Trustcorp owns the King Building, the Meyer Building, and the Ortiz Building, all of which are class 2. Each trade must be of exactly one of the following three kinds: Trading one building for one other building of the same class Trading one class 1 building for two class 2 buildings Trading one class 2 building for two class 3 buildings",
+    "question": "If RealProp owns only class 2 buildings after some number of trades, which one of the following must be true?",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_22",
+    "context": "Three real estate companies—RealProp, Southco, and Trustcorp—are considering trading buildings with one another. Each building they own is categorized as either class 1, class 2, or class 3, depending on its approximate value: RealProp owns the Garza Tower (class 1), the Yates House (class 3), and the Zimmer House (class 3). Southco owns the Flores Tower (class 1) and the Lynch Building (class 2). Trustcorp owns the King Building, the Meyer Building, and the Ortiz Building, all of which are class 2. Each trade must be of exactly one of the following three kinds: Trading one building for one other building of the same class Trading one class 1 building for two class 2 buildings Trading one class 2 building for two class 3 buildings",
+    "question": "If Trustcorp owns no class 2 buildings after some number of trades, which one of the following must be true?",
+    "answer": "E",
+    "flag": "parsing error",
+    "predicted_answer": null
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_23",
+    "context": "Three real estate companies—RealProp, Southco, and Trustcorp—are considering trading buildings with one another. Each building they own is categorized as either class 1, class 2, or class 3, depending on its approximate value: RealProp owns the Garza Tower (class 1), the Yates House (class 3), and the Zimmer House (class 3). Southco owns the Flores Tower (class 1) and the Lynch Building (class 2). Trustcorp owns the King Building, the Meyer Building, and the Ortiz Building, all of which are class 2. Each trade must be of exactly one of the following three kinds: Trading one building for one other building of the same class Trading one class 1 building for two class 2 buildings Trading one class 2 building for two class 3 buildings",
+    "question": "Which one of the following CANNOT be true, no matter how many trades are made?",
+    "answer": "D",
+    "flag": "parsing error",
+    "predicted_answer": "A"
+  }
+]

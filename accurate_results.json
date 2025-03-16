@@ -1,0 +1,1612 @@
+[
+  {
+    "id": "ar_lsat_200010_3-G_2_7",
+    "final_sentence": "So the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_15",
+    "final_sentence": "Therefore, the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_9",
+    "final_sentence": "So yes, C is correct.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_14",
+    "final_sentence": "So the answer must be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_21",
+    "final_sentence": "Therefore, the answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_4",
+    "final_sentence": "So the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_12",
+    "final_sentence": "So yes, A is correct.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_1",
+    "final_sentence": "Therefore, the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_3",
+    "final_sentence": "Therefore, the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_9",
+    "final_sentence": "So the answer must be D) bay 5.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_13",
+    "final_sentence": "So the answer should be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_8",
+    "final_sentence": "Therefore, the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_6",
+    "final_sentence": "So the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_5",
+    "final_sentence": "So yes, D works.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_19",
+    "final_sentence": "Therefore, option E is possible.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_17",
+    "final_sentence": "Therefore, the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_2",
+    "final_sentence": "So yes, D seems correct.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_11",
+    "final_sentence": "Therefore, the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_12",
+    "final_sentence": "So the answer is C) four.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_16",
+    "final_sentence": "Therefore, the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_6",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_4",
+    "final_sentence": "Therefore, the answer should be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_15",
+    "final_sentence": "Therefore, the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_1",
+    "final_sentence": "Therefore, the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_2",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_11",
+    "final_sentence": "So the only option that cannot be true is C: Bay4 is holding textiles.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_20",
+    "final_sentence": "Therefore, the only option that must be true is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_3",
+    "final_sentence": "Therefore, the correct answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_2_10",
+    "final_sentence": "Therefore, the only option that must be true in all valid selections is option D: two French novels.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_1",
+    "final_sentence": "So E is the correct answer.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_8",
+    "final_sentence": "Therefore, the answer should be C) four.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_7",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_19",
+    "final_sentence": "So the answer should be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_7",
+    "final_sentence": "Therefore, the only one that cannot be in bay 4 is A) Grain.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_18",
+    "final_sentence": "So the answer is D) sixth.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_3_13",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_1_5",
+    "final_sentence": "Therefore, option A is correct.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_6",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_12",
+    "final_sentence": "Therefore, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_4",
+    "final_sentence": "Wait, let's think again.",
+    "predicted_answer": null,
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_20",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_5",
+    "final_sentence": "So the only possible option is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_2_10",
+    "final_sentence": "Therefore, the answer must be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_22",
+    "final_sentence": "Therefore, the answer must be B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_23",
+    "final_sentence": "Therefore, the only option that must be true in both scenarios is D) Megregian reviews Tamerlane.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_9",
+    "final_sentence": "So E is the correct answer.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_13",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_1_2",
+    "final_sentence": "Therefore, the only possible answer is B) Vaughn is assigned parking space #5.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_8",
+    "final_sentence": "Therefore, the correct answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_22",
+    "final_sentence": "Therefore, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_14",
+    "final_sentence": "Therefore, the answer is A) one.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_11",
+    "final_sentence": "Because that leads to an impossible situation where there aren't enough candidates left to fill the other positions.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_1",
+    "final_sentence": "So the correct answer should be E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_17",
+    "final_sentence": "Therefore, the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_6",
+    "final_sentence": "Therefore, option E is valid.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_21",
+    "final_sentence": "Therefore, the correct answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_22",
+    "final_sentence": "Therefore, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_24",
+    "final_sentence": "So day 4's puppy is N.",
+    "predicted_answer": null,
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_16",
+    "final_sentence": "So the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_14",
+    "final_sentence": "So only E is correct.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_1_3",
+    "final_sentence": "I think I'll go with D.",
+    "predicted_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_3",
+    "final_sentence": "So the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_5",
+    "final_sentence": "So the answer is three, which is option C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_12",
+    "final_sentence": "So the only valid option is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_3_18",
+    "final_sentence": "But the answer options include A as an option.",
+    "predicted_answer": null,
+    "correct_answer": "E",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_11",
+    "final_sentence": "So I think D is the correct answer.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_15",
+    "final_sentence": "Therefore, the answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_18",
+    "final_sentence": "Therefore, the correct answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_1",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_14",
+    "final_sentence": "Therefore, the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200010_3-G_4_23",
+    "final_sentence": "Another attempt:\n\nDay1: S, G\n\nDay2: H, R (invalid)\n\nNo.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201110_2-G_2_10",
+    "final_sentence": "Therefore, the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_6",
+    "final_sentence": "So the correct answer should be D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_13",
+    "final_sentence": "So the correct answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_20",
+    "final_sentence": "Therefore, option A fully determines the shelves for each book.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_9",
+    "final_sentence": "So the answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_8",
+    "final_sentence": "So the answer must be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_200312_1-G_4_21",
+    "final_sentence": "But K and O are only reviewing T.",
+    "predicted_answer": null,
+    "correct_answer": "E",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_17",
+    "final_sentence": "Therefore, the answer should be B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_3",
+    "final_sentence": "Therefore, the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_11",
+    "final_sentence": "So the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_18",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_10",
+    "final_sentence": "Therefore, the correct answer is D: Hong is scheduled to testify on Tuesday.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_10",
+    "final_sentence": "Therefore, the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_5",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_7",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_17",
+    "final_sentence": "Therefore, the only possible answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_8",
+    "final_sentence": "Therefore, option C must be true.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_17",
+    "final_sentence": "So the only valid option is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_14",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_2_9",
+    "final_sentence": "Therefore, the only one that must be true is B) Hong is scheduled to testify on Tuesday.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_13",
+    "final_sentence": "The answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_12",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_16",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_3_15",
+    "final_sentence": "So E is the answer.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_2",
+    "final_sentence": "Therefore, the answer is E) Julio.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_21",
+    "final_sentence": "Therefore, the answer is two, option B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_4",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_20",
+    "final_sentence": "Therefore, the correct answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_19",
+    "final_sentence": "So I think the correct answer is A) zero.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_23",
+    "final_sentence": "Middle can be 2 or 3.",
+    "predicted_answer": null,
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_1",
+    "final_sentence": "So B is the answer.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_10",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_1_4",
+    "final_sentence": "Therefore, in this case, Olivia can't be on Thursday morning.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201110_2-G_3_16",
+    "final_sentence": "Therefore, the answer must be C) Theresa tests F on the second day.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_2_7",
+    "final_sentence": "Therefore, the correct answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_8",
+    "final_sentence": "So the answer should be B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_19",
+    "final_sentence": "So the answer must be E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_13",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_5",
+    "final_sentence": "So D is correct.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201110_2-G_4_19",
+    "final_sentence": "So total books would be 2 + 2 + 4 = 8 (but 2+2+4=8, which works).",
+    "predicted_answer": null,
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_16",
+    "final_sentence": "Quinn is in Zone 3.",
+    "predicted_answer": null,
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_9",
+    "final_sentence": "Therefore, the only impossible pair is D) Schmidt and Wong.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_2",
+    "final_sentence": "So option C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_4",
+    "final_sentence": "So the answer should be E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_20",
+    "final_sentence": "Therefore, the answer must be B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_14",
+    "final_sentence": "Therefore, the answer must be option C.",
+    "predicted_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_5",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_11",
+    "final_sentence": "So the only possible answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_4_22",
+    "final_sentence": "Therefore, the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_8",
+    "final_sentence": "Therefore, the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_17",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_16",
+    "final_sentence": "Therefore, the correct answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_1",
+    "final_sentence": "Therefore, the correct answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_19",
+    "final_sentence": "Therefore, option E could be true.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_11",
+    "final_sentence": "So the only valid option is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_7",
+    "final_sentence": "Therefore, the correct answer is E, because the original constraints force X into 5 or 6, and substituting with E (X in 5 or 6) would have the same effect.",
+    "predicted_answer": "E",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_18",
+    "final_sentence": "Therefore, the correct answer must be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_23",
+    "final_sentence": "So the only possible answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_3",
+    "final_sentence": "Therefore, the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_21",
+    "final_sentence": "So the only possible option is E) Y is fifth.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_2_12",
+    "final_sentence": "So, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_7",
+    "final_sentence": "Therefore, the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_2",
+    "final_sentence": "So the correct answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_6",
+    "final_sentence": "Yes, E is the correct answer.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_1",
+    "final_sentence": "So the answer should be D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_20",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_13",
+    "final_sentence": "Therefore, the correct answer must be E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_1_6",
+    "final_sentence": "So the only possible answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_17",
+    "final_sentence": "So yes, Option E seems to satisfy all conditions.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_18",
+    "final_sentence": "Therefore, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_7",
+    "final_sentence": "So the answer should be B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_6",
+    "final_sentence": "So the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_18",
+    "final_sentence": "But J must be before G.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201212_4-G_1_2",
+    "final_sentence": "Therefore, option A is the correct answer.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_23",
+    "final_sentence": "Therefore, option C is the correct answer.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_20",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_3_15",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_14",
+    "final_sentence": "So the answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_8",
+    "final_sentence": "So the answer must be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201206_3-G_3_15",
+    "final_sentence": "- Stuckey and Udall are together (good).",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_12",
+    "final_sentence": "Therefore, C must be true.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_9",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_15",
+    "final_sentence": "Then remaining shifts:\n\nMon second,\n\nWed first,\n\nThu first and second,\n\nFri second is taken by Katya.",
+    "predicted_answer": null,
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_22",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_1",
+    "final_sentence": "So the only valid option is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_10",
+    "final_sentence": "Therefore, the correct answer must be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_4",
+    "final_sentence": "Therefore, the only impossible position is B) second.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_13",
+    "final_sentence": "Therefore, the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_2",
+    "final_sentence": "Therefore, the correct answer must be D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_11",
+    "final_sentence": "But let's see.",
+    "predicted_answer": null,
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_9",
+    "final_sentence": "Therefore, D must be true.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_20",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_21",
+    "final_sentence": "Therefore, the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_6",
+    "final_sentence": "So yes, C is correct.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_21",
+    "final_sentence": "So the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201310_3-G_4_22",
+    "final_sentence": "Thus, the only possible answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_4",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_23",
+    "final_sentence": "So the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_19",
+    "final_sentence": "Therefore, the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_4",
+    "final_sentence": "So the other two would have to be V and X.",
+    "predicted_answer": null,
+    "correct_answer": "E",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201412_2-G_2_10",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201212_4-G_4_22",
+    "final_sentence": "Therefore, the answer must be D) fifth.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_12",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_1_3",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_2",
+    "final_sentence": "So the answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_19",
+    "final_sentence": "First, let's outline the constraints again:\n\n- Positions 1-6.",
+    "predicted_answer": null,
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_3",
+    "final_sentence": "Therefore, D could be true.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_2_12",
+    "final_sentence": "So E is the correct answer.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_3",
+    "final_sentence": "So A is correct.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_16",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_21",
+    "final_sentence": "But this violates the third constraint because G is in Silva, so L must be in Thorne.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201510_3-G_1_5",
+    "final_sentence": "So the only possible answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_4_23",
+    "final_sentence": "So the answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_18",
+    "final_sentence": "So the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_4_22",
+    "final_sentence": "Therefore, the correct answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_23",
+    "final_sentence": "Therefore, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_6",
+    "final_sentence": "So the only valid option is D.",
+    "predicted_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_7",
+    "final_sentence": "So the only option that forces Mollie to be in 1922 is E: Yoshio is assigned to 1921.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201412_2-G_3_15",
+    "final_sentence": "Rug 3: nothing.",
+    "predicted_answer": null,
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201606_2-G_1_5",
+    "final_sentence": "Therefore, option B is the correct answer.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_8",
+    "final_sentence": "So the answer must be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_1",
+    "final_sentence": "Therefore, the correct answer is C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_10",
+    "final_sentence": "So E could be true.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_16",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_18",
+    "final_sentence": "Thus, the only possible answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_14",
+    "final_sentence": "Therefore, D is the correct answer.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_2",
+    "final_sentence": "So the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_5",
+    "final_sentence": "So the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "E",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_4",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_11",
+    "final_sentence": "So the answer is A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_20",
+    "final_sentence": "Therefore, the only possible answer is C) Trillo's audition.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_8",
+    "final_sentence": "So the answer should be B.",
+    "predicted_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_7",
+    "final_sentence": "So the correct answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_16",
+    "final_sentence": "So the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_17",
+    "final_sentence": "Assign Joe to Th1 and T1.",
+    "predicted_answer": null,
+    "correct_answer": "E",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_14",
+    "final_sentence": "Maybe the correct answer is E, and I'm missing something.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201606_2-G_2_9",
+    "final_sentence": "So the answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_13",
+    "final_sentence": "Therefore, the answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_17",
+    "final_sentence": "Therefore, E could be true.",
+    "predicted_answer": "E",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_11",
+    "final_sentence": "Therefore, substituting B would have the same effect.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201510_3-G_3_19",
+    "final_sentence": "Let's say G is on Wed1 and Fri1.",
+    "predicted_answer": null,
+    "correct_answer": "E",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_21",
+    "final_sentence": "Therefore, the answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_4_22",
+    "final_sentence": "Because in both cases where fifth is K or L, Yoshida can be in fourth.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_16",
+    "final_sentence": "Therefore, the correct answer is B.",
+    "predicted_answer": "B",
+    "correct_answer": "B",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_19",
+    "final_sentence": "So the answer should be C.",
+    "predicted_answer": "C",
+    "correct_answer": "C",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_20",
+    "final_sentence": "So, the answer should be A.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_9",
+    "final_sentence": "Therefore, the correct answer is D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_17",
+    "final_sentence": "5 and 6 are taken.",
+    "predicted_answer": null,
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_15",
+    "final_sentence": "So the correct answer must be D.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_21",
+    "final_sentence": "So the only option that must be true is A) Trustcorp owns a class 1 building.",
+    "predicted_answer": "A",
+    "correct_answer": "A",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_14",
+    "final_sentence": "Therefore, option E is possible.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_12",
+    "final_sentence": "Therefore, impossible.",
+    "predicted_answer": null,
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201606_2-G_3_15",
+    "final_sentence": "So M must be < L.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_1_3",
+    "final_sentence": "But wait, the problem says that Kelly is not a facilitator.",
+    "predicted_answer": null,
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_23",
+    "final_sentence": "So the answer is D, because Trustcorp can't end up with Flores and Yates without also having Zimmer, making it impossible to have exactly those two.",
+    "predicted_answer": "D",
+    "correct_answer": "D",
+    "is_correct": true
+  },
+  {
+    "id": "ar_lsat_201612_3-G_2_10",
+    "final_sentence": "I'm really stuck.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_13",
+    "final_sentence": "So the answer must be A.",
+    "predicted_answer": null,
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_3_18",
+    "final_sentence": "Let me go back to the options.",
+    "predicted_answer": null,
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": "ar_lsat_201612_3-G_4_22",
+    "final_sentence": "Therefore, the correct answer is E.",
+    "predicted_answer": "E",
+    "correct_answer": "E",
+    "is_correct": true
+  }
+]
